@@ -55,11 +55,11 @@ Important to note that Oculus / Meta headsets can also be used with SteamVR, Ope
 4. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
 
 ## 3. Setting up Custom Shaders Patch (CSP)
-1. In Content Manager go to Settings > Custom Shader Patch
-  1.1 If you are prompted to install Custom Shaders Patch, press install
-2 Go to Settings > Custom Shader Patch > About & Updates and verify that you are on the latest version which should be at the top of the list on the right side.
+1. In Content Manager go to Settings > Custom Shader Patch  
+  1.1 If you are prompted to install Custom Shaders Patch, press install  
+2 Go to Settings > Custom Shader Patch > About & Updates and verify that you are on the latest version which should be at the top of the list on the right side.  
   2.1 I don't recommend using the "recommended" version as it is quite old by now and wont work in some servers  
-If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post
+If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post  
 
 ## 4. Setting up Pure
 Pure is recommended for VR as it delivers a more realistic and consistent image, also has a lot of adjustability.
