@@ -5,16 +5,14 @@ It also covers usage of OpenComposite and the OpenXR Toolkit
 This guide is written with Content Manager and Custom Shaders Patch in mind, not guaranteed to work with vanilla Assetto Corsa.
 
 ## 0. Table of Contents
-1. [Prerequisites](#rerequisites)  
+1. [Prerequisites](#1-prerequisites)  
 2. Basic VR Setup  
 3. Setting up Custom Shaders Patch (CSP)  
 4. Setting up Pure  
 5. Video Settings (Settings > Assetto Corsa > Video)  
 6. Custom Shaders Patch settings  
-7. OpenComposite and OpenXR Toolkit  
+7. [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)
 
-
- 
 ## 1. Prerequisites
 - Legit copy of Assetto Corsa (Pirated copies do not get any support or help in the CSP discord)
 - Latest version of Content Manager  
@@ -173,7 +171,7 @@ You can also test using the "VRS preset" presets but they seem to be made for Pi
 "**Corners masking optimization**" Recommended to keep this one enabled, helps with performance but will create a black area around the VR image in the game window  
 "**Custom VR HUD rendering**" recommended to keep this enabled as it makes the HUD work better in VR  
 
-## 7. OpenComposite
+## 7. OpenComposite and OpenXR Toolkit
 OpenComposite allows you to play SteamVR games without actually needing SteamVR, it is highly recommended to use for advanced users wanting more performance.  
 On non native SteamVR headsets(Quest,Pico,Pimax,WMR) SteamVR simply acts as a middle layer which simply increases resource usage while bringing no real benefit to your VR experience.
 To install OpenComposite:
@@ -183,6 +181,7 @@ To install OpenComposite:
 - You also need to make sure your headset is using its native OpenXR Runtime and not the SteamVR one  
 If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same spot as the opencomposite dll and overwrite, this will remove opencomposite.  
 
+OpenXR Toolkit  
 On top of OpenComposite allowing you to not need SteamVR to use SteamVR games, it is also compatible with the OpenXR Toolkit which brings additional functionality and tweaks.
 The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more.
 The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/)  
