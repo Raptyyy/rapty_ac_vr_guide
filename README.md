@@ -161,11 +161,23 @@ You can also test using the "VRS preset" presets but they seem to be made for Pi
 "**Custom VR HUD rendering**" recommended to keep this enabled as it makes the HUD work better in VR  
 
 ### 7. OpenComposite
-OpenComposite allows you to play SteamVR games without actually needing SteamVR.  
+OpenComposite allows you to play SteamVR games without actually needing SteamVR, it is highly recommended to use for advanced users wanting more performance.  
 On non native SteamVR headsets(Quest,Pico,Pimax,WMR) SteamVR simply acts as a middle layer which simply increases resource usage while bringing no real benefit to your VR experience.
 To install OpenComposite:
 - Download the opencomposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
 - Make sure the file is called "openvr_api.dll" and place it in to "steamapps\common\assettocorsa\system\x64", if prompted to overwrite files, press yes.
 - In Content Manager > Settings > Video set "Rendering Mode" to "OpenVR"
 - You also need to make sure your headset is using its native OpenXR Runtime and not the SteamVR one  
-If you encounter any issues using OpenComposite, I have the original dll file uploaded here, simply put it in the same spot as the opencomposite dll and overwrite, this will remove opencomposite.
+If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same spot as the opencomposite dll and overwrite, this will remove opencomposite.  
+
+On top of OpenComposite allowing you to not need SteamVR to use SteamVR games, it is also compatible with the OpenXR Toolkit which brings additional functionality and tweaks.
+The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more.
+The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/)  
+If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.  
+Recommended settings for the Toolkit:
+- Upscaling set to FSR if you need more performance or set to CAS to improve image quality by sharpening the image, strength of 80% to 100% should work best.
+- Foveated rendering (Only Nvidia GPUs and 20 series or newer) set to Preset - Quality - Balanced, this will be a good starting point, adjust as needed. Custom will allow you to tweak things further if you understand how Foveated rendering works.
+- System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use 94% on my Revern G2 V1. Might not work well with every headset.  
+There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
+
+
