@@ -1,6 +1,7 @@
 # VR guide for Assetto Corsa and CSP
 
 The purpose of this guide is to help with basic VR setup and cover some of the main settings and features.  
+It also covers usage of OpenComposite and the OpenXR Toolkit  
 This guide is written with Content Manager and Custom Shaders Patch in mind, not guaranteed to work with vanilla Assetto Corsa.
 
 ## 1. Prerequisites
@@ -135,7 +136,7 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 - [NeckFX LUA script](https://www.overtake.gg/downloads/neckfx-lua-script-vr-stabilize.65087) more basic, static script.
 
 ### Smart Mirror
-"C**ustom render distance"** enable it and set the distance to 400 meters if you use High Quality mirrors in video settings, helps with performance.
+"**Custom render distance"** enable it and set the distance to 400 meters if you use High Quality mirrors in video settings, helps with performance.
 "**Real mirrors**" highly recommended in VR, makes the mirrors change perspective based on your head movement also lets you adjust mirror positioning through the "Mirrors" app in-game
 - "**Active**" enabled of course
 - "**Alter FOV**" set based on your preference, I have it off
