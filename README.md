@@ -162,7 +162,7 @@ You can also test using the "VRS preset" presets but they seem to be made for Pi
 "**Corners masking optimization**" Recommended to keep this one enabled, helps with performance but will create a black area around the VR image in the game window  
 "**Custom VR HUD rendering**" recommended to keep this enabled as it makes the HUD work better in VR  
 
-### 7. OpenComposite
+## 7. OpenComposite
 OpenComposite allows you to play SteamVR games without actually needing SteamVR, it is highly recommended to use for advanced users wanting more performance.  
 On non native SteamVR headsets(Quest,Pico,Pimax,WMR) SteamVR simply acts as a middle layer which simply increases resource usage while bringing no real benefit to your VR experience.
 To install OpenComposite:
