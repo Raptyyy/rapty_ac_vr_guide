@@ -9,7 +9,7 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 2. [Basic VR Setup](#2-basic-vr-setup)  
 3. [Setting up Custom Shaders Patch (CSP)](#3-setting-up-custom-shaders-patch-csp)  
 4. [Setting up Pure](#4-setting-up-pure)  
-5. [Video Settings](#5-video-settings-settings->-assetto-corsa->-video)  
+5. [Video Settings](#5-video-settings)  
 6. [Custom Shaders Patch settings](#6-custom-shaders-patch-settings)  
 7. [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)
 
@@ -62,7 +62,8 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
   - Incorrect installation of Pure can cause major performance issues !
 - Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
 
-## 5. Video Settings (Settings > Assetto Corsa > Video)
+## 5. Video Settings
+This covers all the settings in Content Manager > Settings > Video  
 Note that in Content Manager some of the settings have a green "i" icon next to them that will show what each setting does and the performance impact
 ### Resolution and FPS
 "**Rendering Mode**" should already be set depending on your headset as shown above.  
