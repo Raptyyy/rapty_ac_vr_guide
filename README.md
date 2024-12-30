@@ -30,48 +30,48 @@ Quick links:
 
 ## 2. Basic VR setup
 ### Oculus / Meta
-- First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
-- In the oculus app settings > general enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you dont need to press it)  
-- In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
-  - If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
-- Try launching the game in singleplayer and see if everything works.
+1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
+2. In the Oculus App, Settings > General enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
+3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
+  3.1 If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
+4. Try launching the game in singleplayer and see if everything works.
 Important to note that Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift should be easiest to set up.  
 
 ### SteamVR headsets (Vive, Index, Bigscreen beyond)
-- Make sure your headset is connected to your PC
-- Install SteamVR from Steam
-- In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
-- Try launching the game in singleplayer and see if everything works.
+1. Make sure your headset is connected to your PC
+2. Install SteamVR from Steam
+3. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+4. Try launching the game in singleplayer and see if everything works.
 
 ### Windows Mixed Reality headsets
-- Make sure your headset is connected to your PC
-- Install Windows Mixed Reality from the Microsoft Store
-- Install SteamVR from Steam
-- Install Windows Mixed Reality for SteamVR from Steam
-- In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
-- Try launching the game in singleplayer and see if everything works.
+1. Make sure your headset is connected to your PC
+2. Install Windows Mixed Reality from the Microsoft Store
+3. Install SteamVR from Steam
+4. Install Windows Mixed Reality for SteamVR from Steam
+5. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+6. Try launching the game in singleplayer and see if everything works.
 
 ### Pimax headsets
-- Make sure your headset is connected to your PC
-- Install PiTool
-- Install SteamVR from Steam
-- In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
-- Try launching the game in singleplayer and see if everything works.
+1. Make sure your headset is connected to your PC
+2. Install PiTool
+3. Install SteamVR from Steam
+4. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+5. Try launching the game in singleplayer and see if everything works.
 
 ## 3. Setting up Custom Shaders Patch (CSP)
-- In Content Manager go to Settings > Custom Shader Patch
-  - If you are prompted to install Custom Shaders Patch, press install
-- Go to Settings > Custom Shader Patch > About & Updates and verify that you are on the latest version which should be at the top of the list on the right side.
-  - I dont recommend using the "recommended" version as it is quite old by now and wont work in some servers
-- If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post
+1. In Content Manager go to Settings > Custom Shader Patch
+  1.1 If you are prompted to install Custom Shaders Patch, press install
+2 Go to Settings > Custom Shader Patch > About & Updates and verify that you are on the latest version which should be at the top of the list on the right side.
+  2.1 I don't recommend using the "recommended" version as it is quite old by now and wont work in some servers  
+If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post
 
 ## 4. Setting up Pure
 Pure is recommended for VR as it delivers a more realistic and consistent image, also has a lot of adjustability.
-- Make sure you are on the latest version of CSP
-- Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
-- There is an installation guide in the Pure post, follow it thoroughly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
-  - Incorrect installation of Pure can cause major performance issues !
-- Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
+1. Make sure you are on the latest version of CSP
+2. Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
+3. There is an installation guide in the Pure post, follow it thoroughly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
+  3.1 Incorrect installation of Pure can cause major performance issues !
+4. Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
 
 ## 4.1 Pure pp filters 
 Pure, PureVR - these come with Pure, PureVR would be my recommendation out of those two  
@@ -84,7 +84,7 @@ This covers all the settings in Content Manager > Settings > Video
 Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
 
 ## 5.1 Video Presets for VR
-These are some video presets I made if you dont want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
+These are some video presets I made if you don't want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
 - High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)  
 - Balanced: [Link here](https://acstuff.club/s/MvZ2)
@@ -104,18 +104,18 @@ Make sure to double check the Rendering Mode so that its set correctly for your 
 "**Anisotropic Filtering**" helps with texture clarity into the distance, it has a very low performance impact so recommended to just keep it at 16x.  
 "**World details**" will affect object amount on tracks (if they support it), set it as needed. Can also be adjust in-game using the "View & Video Settings" app.  
 "**Shadows resolution**" affects how sharp the shadows will look. Higher resolution will make shadows look better but decrease performance. I would recommended using 1024x1024 and increase if performance isnt an issue.  
-"**Smoke generation**" Simply controls the smoke quantity, adjust as neeeded, but I would recommend using CSP smoke instead (Custom Shaders Patch > Particles FX > New smoke and dust)  
+"**Smoke generation**" Simply controls the smoke quantity, adjust as needed, but I would recommend using CSP smoke instead (Custom Shaders Patch > Particles FX > New smoke and dust)  
 
 ### Reflections
 "**Reflection Resolution**" simply adjusts how sharp / clear the reflections will look, 512x512 is a good base value to start with, can increase if needed.  
-"**Rendering frequency**" adjusts how smoothly the reflections will reflect, Set it to either one or two faces per frame, any higher is not really needed as they get reprojected anyway. Dont use Static either.  
+"**Rendering frequency**" adjusts how smoothly the reflections will reflect, Set it to either one or two faces per frame, any higher is not really needed as they get reprojected anyway. don't use Static either.  
 "**Rendering distance**" Adjusts the reflection rendering distance, does not have a noticeable performance impact so you can set it to at least 1000m or higher if needed.  
 
 ### Post-Processsing
 "**Enable post-processing effects**" this enables post processing in general, very useful to have to improve the graphics and look of the game, however has a big performance impact. Most PCs should be able to handle post processing but low-end PCs should probably disable it on more demanding servers.  
 "**Overall Quality**" sets the post processing resolution, High is a good middle ground performance wise but can also just set it to Maximum.  
 "**Glare Quality**" sets the quality of glare effects, High is a good middle ground performance wise but can also just set it to Maximum.  
-"**Depth of field**" adjusts the depth of field quality, only works in replays so can keep it Off if you dont care about it.  
+"**Depth of field**" adjusts the depth of field quality, only works in replays so can keep it Off if you don't care about it.  
 "**Motion blur**" not recommended to use with VR, set it to Off  
 "**Saturation**" is basically the intensity of the colors, keep it at 100% and adjusts colors in Pure instead if needed.  
 "**Heat shimmering**" adds a heat shimmering effect, set as needed  
@@ -131,7 +131,7 @@ Make sure to double check the Rendering Mode so that its set correctly for your 
 "**Mirror texture**" enables the game window to show your VR view, recommended to enable it  
 
 ### System
-I would recommend not messing with these settings as they dont really have any meaningful impact and can cause issues.
+I would recommend not messing with these settings as they don't really have any meaningful impact and can cause issues.
 
 ## 6. Custom Shaders Patch settings
 I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR performance.  
@@ -153,10 +153,10 @@ CPU optimizations:
 GPU optimizations: 
 - "**Optimize meshes some more**" helps with GPU load
 - "**Deduplicate meshes**" helps with VRAM
-- "**Upgrade AC textures**" will make certain textures more efficient VRAM wise, dont enable this if you have a low amount of free disk space.
+- "**Upgrade AC textures**" will make certain textures more efficient VRAM wise, don't enable this if you have a low amount of free disk space.
 
 ### Extra FX
-Extra FX doesnt work in VR so this will have no effect, keep it disabled if you dont ever use Extra FX.
+Extra FX doesnt work in VR so this will have no effect, keep it disabled if you don't ever use Extra FX.
 
 ### Graphics Adjustments
 "**AMD FidelityFX SuperResolution"** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs.  
@@ -164,16 +164,16 @@ LOD settings:
 - "**Force low-res drivers for other cars in first person view"** enable for performance
 - "**Multiplier for car LODs**" this sets how far away the car LOD (level of detail) will change, lower multiplier will help with performance but can make cars look worse up close, for performance set it to 75%.
 - "**Multiplier for track LODs**" same thing as car LODs but for the track, I would recommend not going below 80% as it can cause issues.
-- "**Multiplier for trees LODs**" same thing as car LODs but for 3D trees, you can set it to 0% for best performance if you dont care about 3D trees.
-- "**Add extra collider-based LODs for distant cars**" will make low quality LODs for cars that dont have them, can help a lot in dense lobbies like VDC. Set the "Limit LODless cars" to a low value between 5 to 10 for best performance.
+- "**Multiplier for trees LODs**" same thing as car LODs but for 3D trees, you can set it to 0% for best performance if you don't care about 3D trees.
+- "**Add extra collider-based LODs for distant cars**" will make low quality LODs for cars that don't have them, can help a lot in dense lobbies like VDC. Set the "Limit LODless cars" to a low value between 5 to 10 for best performance.
 "**Post processing antialiasing**" set to Disabled as post process AA doesnt work in VR (Will update this if it changes)
 "**Accessible color buffer > Full resolution for better quality"** you can disable this for a tiny boost in performance
 "**Draw grooves over track, but before dynamic entities**" Can help with performance but can also cause issues on some track (Like mirror / see through roads), use with caution.
 
-### Lightning FX
+### lighting FX
 "**Cars casting lights**" set this to a lower amount for better performance in dense lobbies, lights are expensive performance wise.
 "**Disable mirroring in first person view**" helps with performance a bit
-"**Enable lightning in reflections**" disable for a performance boost
+"**Enable lighting in reflections**" disable for a performance boost
 
 ### Neck FX
 Not related to performance but there are good NeckFX scripts for VR to enhance immersion or comfort, here are two most popular ones: 
@@ -233,7 +233,7 @@ There is additional functionality in the toolkit which [you can see here](https:
 ## 8. VRPerfKit
 VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR.  
 This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen) and want some of the same functionality.  
-Since foveatred rendering is built into CSP itself I dont recommend this utility as much nowadays but it is somewhat more adjustable so feel free to try it.  
+Since foveatred rendering is built into CSP itself I don't recommend this utility as much nowadays but it is somewhat more adjustable so feel free to try it.  
 [Link to VRPerfkit](https://github.com/fholger/vrperfkit)  
 The installation and usage are explain in the download link.  
 There is a more advanced version of the VRPerfkit with more feature which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
