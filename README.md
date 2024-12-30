@@ -251,7 +251,7 @@ If you want to use Nvidia VRS:
 
 You can also test using the "VRS preset" presets.
 
-**Corners masking optimization** Recommended to keep this one `enabled`, helps with performance but will create a black area around the VR image in the game window  
+**Corners masking optimization** recommended to keep this one `enabled`, helps with performance but will create a black area around the VR image in the game window / VR mirror  
 
 **Custom VR HUD rendering** recommended to keep this `enabled` as it makes the HUD work better in VR  
 
@@ -277,8 +277,9 @@ To install OpenComposite:
 **OpenXR Toolkit** (OpenXR only)  
 OpenComposite also lets you use the OpenXR Toolkit which brings additional functionality and tweaks.  
 The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more. The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/#downloads)  
-If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.  
-<img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/ad7065aa9a3be800edde90a72d2039db4e025605/resources/companion_5K7N6kLbKY.png" width="250">   
+If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.   
+<img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/ad7065aa9a3be800edde90a72d2039db4e025605/resources/companion_5K7N6kLbKY.png" width="250">  
+
 Recommended settings for the Toolkit (Set these in-game):
 - Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
 - Foveated rendering ([What is Foveated Rendering](#10-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
