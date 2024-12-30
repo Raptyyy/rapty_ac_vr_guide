@@ -91,9 +91,13 @@ Make sure to double check the Rendering Mode so that its set correctly for your 
 
 ### Resolution and FPS
 **Rendering Mode** should already be set depending on your headset as shown above.  
+
 **Fullscreen** will simply display the game in Fullscreen instead of a window, recommended to have it `enabled` as it slightly helps with performance but its not a must.  
+
 **Resolution** doesnt really matter for VR use, it will only set the game window size, does not affect VR image quality.  
+
 **Virtual synchronization** is not needed, keep it `disabled`  
+
 **Limit framerate** is not needed in VR as the headset will limit fps as needed by itself, keep it `disabled`.  
 
 ### Quality
