@@ -140,36 +140,36 @@ Note: Foveated rendering (VRS) is NOT enabled in any of these, set it yourself a
 - High Quality - [Link here](https://acstuff.club/s/Lywh)  
 
 ### General Patch Settings
-"**Audio > Decompress Samples**" recommended to enable it if you have more than 16GB of RAM, helps with CPU load.  
-"**New KN5 loader**" recommended to have it enabled, helps with memory usage  
+**Audio > Decompress Samples** recommended to have it `enabled` if you have more than 16GB of RAM, helps with CPU load.  
+**New KN5 loader** recommended to have it `enabled`, helps with memory usage  
 CPU optimizations:
-- "**Flatten nodes**" keep it enabled  
-- "**Chunks optimization**" helps with CPU load. Set it to Advanced unless you have issues, then keep it at Basic.  
-- "**Limit audio for other cars**" set it to Always if you have a slower PC.  
+- **Flatten nodes** keep it `enabled`  
+- **Chunks optimization** helps with CPU load. Set it to `Advanced` unless you have issues (like the screen going black), then keep it at `Basic`.  
+- **Limit audio for other cars** set it to `Always` if you have a slower PC.  
 GPU optimizations: 
-- "**Optimize meshes some more**" helps with GPU load
-- "**Deduplicate meshes**" helps with VRAM
-- "**Upgrade AC textures**" will make certain textures more efficient VRAM wise, don't enable this if you have a low amount of free disk space.
+- **Optimize meshes some more** helps with GPU load, have it `enabled`  
+- "**Deduplicate meshes**" helps with VRAM, have it `enabled`  
+- "**Upgrade AC textures**" will make certain textures more efficient VRAM wise, recommended to have it `enabled`. Don't enable this if you have a low amount of free disk space.
 
 ### Extra FX
-Extra FX doesnt work in VR so this will have no effect, keep it disabled if you don't ever use Extra FX.
+Extra FX doesnt work in VR so this will have no effect, keep it `disabled` if you don't ever use Extra FX.
 
 ### Graphics Adjustments
-"**AMD FidelityFX SuperResolution"** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs.  
+**AMD FidelityFX SuperResolution** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs.  
 LOD settings:
-- "**Force low-res drivers for other cars in first person view"** enable for performance
-- "**Multiplier for car LODs**" this sets how far away the car LOD (level of detail) will change, lower multiplier will help with performance but can make cars look worse up close, for performance set it to 75%.
-- "**Multiplier for track LODs**" same thing as car LODs but for the track, I would recommend not going below 80% as it can cause issues.
-- "**Multiplier for trees LODs**" same thing as car LODs but for 3D trees, you can set it to 0% for best performance if you don't care about 3D trees.
-- "**Add extra collider-based LODs for distant cars**" will make low quality LODs for cars that don't have them, can help a lot in dense lobbies like VDC. Set the "Limit LODless cars" to a low value between 5 to 10 for best performance.
-"**Post processing antialiasing**" set to Disabled as post process AA doesnt work in VR (Will update this if it changes)
-"**Accessible color buffer > Full resolution for better quality"** you can disable this for a tiny boost in performance
-"**Draw grooves over track, but before dynamic entities**" Can help with performance but can also cause issues on some track (Like mirror / see through roads), use with caution.
+- **Force low-res drivers for other cars in first person view** have it `enabled` for performance
+- **Multiplier for car LODs** this sets how far away the car LOD (level of detail) will change, lower multiplier will help with performance but can make cars look worse up close, for performance set it to `75%`.
+- **Multiplier for track LODs** same thing as car LODs but for the track, I would recommend not going below `80%` as it can cause issues.
+- **Multiplier for trees LODs** same thing as car LODs but for 3D trees, you can set it to `0% for best performance` if you don't care about 3D trees, otherwise keep it around `100%`.  
+- **Add extra collider-based LODs for distant cars** will make low quality LODs for cars that don't have them, can help a lot in dense lobbies like VDC, recommended to have it `enabled`. Set the "Limit LODless cars" to a low value between 5 to 10 for best performance.
+**Post processing antialiasing** set to `disabled` as post process AA doesnt work in VR (Will update this if it changes)  
+**Accessible color buffer > Full resolution for better quality** set to `disabled` for a tiny boost in performance  
+**Draw grooves over track, but before dynamic entities** Can help with performance but can also cause issues on some track (Like mirror / see through roads), use with caution.  
 
 ### lighting FX
-"**Cars casting lights**" set this to a lower amount for better performance in dense lobbies, lights are expensive performance wise.
-"**Disable mirroring in first person view**" helps with performance a bit
-"**Enable lighting in reflections**" disable for a performance boost
+**Cars casting lights** set this to a lower amount like `5` for better performance in dense lobbies, lights are expensive performance wise.
+**Disable mirroring in first person view**"helps with performance a bit, have it `enabled`  
+**Enable lighting in reflections** `disabled` for a performance boost  
 
 ### Neck FX
 Not related to performance but there are good NeckFX scripts for VR to enhance immersion or comfort, here are two most popular ones: 
@@ -177,31 +177,31 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 - [NeckFX LUA script](https://www.overtake.gg/downloads/neckfx-lua-script-vr-stabilize.65087) more basic, static script.
 
 ### Smart Mirror
-"**Custom render distance"** enable it and set the distance to 400 meters if you use High Quality mirrors in video settings, helps with performance.
-"**Real mirrors**" highly recommended in VR, makes the mirrors change perspective based on your head movement also lets you adjust mirror positioning through the "Mirrors" app in-game
-- "**Active**" enabled of course
-- "**Alter FOV**" set based on your preference, I have it off
-- "**Refresh rate per frame**" set to Update single reflection per frame for best performance, can look a little laggy on lower refresh rate headsets, try higher if needed.
+**Custom render distance** `enabled` and set the distance to 400 meters if you use High Quality mirrors in video settings, helps with performance.
+**Real mirrors** highly recommended in VR, makes the mirrors change perspective based on your head movement also lets you adjust mirror positioning through the "Mirrors" app in-game
+- **Active** `enabled`
+- **Alter FOV** set based on your preference, I have it `disabled`
+- **Refresh rate per frame** set to` Update single reflection per frame` for best performance, can look a little laggy on lower refresh rate headsets, use higher if needed.
 
 ### Weather FX
-"**Weather style**" this should be set to either Pure Gamma or Pure LCS, Gamma is better performance wise as of now but LCS will produce a more natural image.  
-"**Replace YEBIS with lightweight alternative**" helps a lot to reduce the performance impact of post-processing, does not work with some pp filters like C13.  
-"**Automatically guess white reference point**" This can make the UI very bright when using Pure, disable it.  
+**Weather style** this should be set to either `Pure Gamma` or `Pure LCS`, Gamma is better performance wise as of now but LCS will produce a more natural image (Can have various issues).  
+**Replace YEBIS with lightweight alternative** `enabled`, helps a lot to reduce the performance impact of post-processing, does not work with some pp filters like C13.  
+**Automatically guess white reference point** This can make the UI very bright when using Pure, `disable` it.  
 
 ### Mode Tweaks VR:
 Make sure the extension is enabled (Active)  
-"**Single Pass Stereo**" Highly recommend to enable this, helps a lot with CPU load, can cause certain Pure effects to not work. Might work for AMD GPUs too.  
-"**Single YEBIS pass"** makes post processing slightly less demanding to run, enable for performance if needed, can cause certain Pure effects to not work.  
-"**Nvidia VRS**" also known as Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
+**Single Pass Stereo** Highly recommend to `enable` this, helps a lot with CPU load, can cause certain Pure effects to not work. Might work for AMD GPUs too.  
+**Single YEBIS pass** makes post processing slightly less demanding to run, `enable` for performance if needed, can cause certain Pure effects to not work.  
+**Nvidia VRS** also known as Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
-- "**Nvidia VRS**" enabled
-- "**VRS preset**" Custom
-- "**VRS rate"** High performance, can set to Highest performance if you need every bit of performance but it will be more visible.
-- "**VRS detailed area**" Balanced, set it to wide if you use a Quest 3 or Pico 4 as they will show foveated rendering more clearly.  
-You can also test using the "VRS preset" presets but they seem to be made for Pimax headsets.
+- **Nvidia VRS** `enabled`
+- **VRS preset** `Custom`
+- **VRS rate** `High performance`, can set to Highest performance if you need every bit of performance but it will be more visible.
+- **VRS detailed area** `Balanced`, set it to `Wide` if you use a Quest 3 or Pico 4 as they will show foveated rendering more clearly.  
+You can also test using the "VRS preset" presets.
 
-"**Corners masking optimization**" Recommended to keep this one enabled, helps with performance but will create a black area around the VR image in the game window  
-"**Custom VR HUD rendering**" recommended to keep this enabled as it makes the HUD work better in VR  
+**Corners masking optimization** Recommended to keep this one `enabled`, helps with performance but will create a black area around the VR image in the game window  
+**Custom VR HUD rendering** recommended to keep this `enabled` as it makes the HUD work better in VR  
 
 ## 7. OpenComposite and OpenXR Toolkit
 OpenComposite allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
@@ -221,9 +221,9 @@ The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rend
 The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/)  
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.  
 Recommended settings for the Toolkit:
-- Upscaling set to FSR if you need more performance or set to CAS to improve image quality by sharpening the image, strength of 80% to 100% should work best.
-- Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) set to Preset - Quality - Balanced, this will be a good starting point, adjust as needed. Custom will allow you to tweak things further if you understand how Foveated rendering works.
-- System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use 94% on my Revern G2 V1. Might not work well with every headset.  
+- Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
+- Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
+- System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
 ## 8. VRPerfKit
