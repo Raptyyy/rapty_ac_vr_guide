@@ -102,33 +102,49 @@ Make sure to double check the Rendering Mode so that its set correctly for your 
 
 ### Quality
 **MSAA** is an Anti-Aliasing technique which helps a lot with jagged edges / pixelation or shimmering especially into the distance. Highly recommended to keep it enabled in VR, either `2x` or `4x`. `8x` will have a major impact on performance and is generally not worth using.  
+
 **Anisotropic Filtering** helps with texture clarity into the distance, it has a very low performance impact so recommended to just keep it at `16x`.  
+
 **World details** will affect object amount on tracks (if they support it), set it as needed. Can also be adjust in-game using the "View & Video Settings" app.  
+
 **Shadows resolution** affects how sharp the shadows will look. Higher resolution will make shadows look better but decrease performance. I would recommended using `1024x1024` and increase if performance isnt an issue.  
+
 **Smoke generation** Simply controls the smoke quantity, adjust as needed, but I would recommend using CSP smoke instead (Custom Shaders Patch > Particles FX > New smoke and dust)  
 
 ### Reflections
 **Reflection Resolution** simply adjusts how sharp / clear the reflections will look, `512x512` is a good base value to start with, can increase if needed.  
+
 **Rendering frequency** adjusts how smoothly the reflections will reflect, Set it to either `one or two faces per frame`, any higher is not really needed as they get reprojected anyway. don't use Static either.  
+
 **Rendering distance** Adjusts the reflection rendering distance, does not have a noticeable performance impact so you can set it to `at least 1000m` or higher if needed.  
 
 ### Post-Processsing
 **Enable post-processing effects** this enables post processing in general, very useful to have to improve the graphics and look of the game, however has a big performance impact. Most PCs should have it `enabled` but low-end PCs should probably `disable` it on more demanding servers.  
+
 **Overall Quality** sets the post processing resolution, `High` is a good middle ground performance wise but can also just set it to `Maximum`.  
+
 **Glare Quality** sets the quality of glare effects, `High` is a good middle ground performance wise but can also just set it to `Maximum`.  
+
 **Depth of field** adjusts the depth of field quality, only works in replays so can keep it `Off` if you don't care about it.  
+
 **Motion blur** not recommended to use with VR, set it to `Off`  
+
 **Saturation** is basically the intensity of the colors, keep it at `100%` and adjusts colors in Pure instead if needed.  
+
 **Heat shimmering** adds a heat shimmering effect, `set as needed`  
+
 **Sunrays** enables sun rays / god rays / sun shafts, `set as needed`  
+
 **FXAA** is an anti aliasing technique, keep it `enabled` as it is required for some CSP functionality but will not affect image quality in VR.
 
 ### Mirrors
 **Mirror resolution** how sharp / clear the mirrors will look, higher resolutions will reduce performance, `256x1024` is a good base value  
+
 **High quality** enables additional effects in the mirrors and increases the rendering distance (from 400 to 800 meters), will reduce performance, recommended to `enable`.    
 
 ### Oculus (only affects Oculus / Meta headsets)
 **Pixels per display** is same as resolution multiplier in the oculus app or oculus pixels per display pixel override in oculus debug app, `set as needed`  
+
 **Mirror texture** enables the game window to show your VR view, recommended to `enable` it  
 
 ### System
@@ -146,11 +162,14 @@ Note: Foveated rendering (VRS) is NOT enabled in any of these, set it yourself a
 
 ### General Patch Settings
 **Audio > Decompress Samples** recommended to have it `enabled` if you have more than 16GB of RAM, helps with CPU load.  
+
 **New KN5 loader** recommended to have it `enabled`, helps with memory usage  
+
 CPU optimizations:
 - **Flatten nodes** keep it `enabled`  
 - **Chunks optimization** helps with CPU load. Set it to `Advanced` unless you have issues (like the screen going black), then keep it at `Basic`.  
-- **Limit audio for other cars** set it to `Always` if you have a slower PC.  
+- **Limit audio for other cars** set it to `Always` if you have a slower PC.
+
 GPU optimizations: 
 - **Optimize meshes some more** helps with GPU load, have it `enabled`  
 - "**Deduplicate meshes**" helps with VRAM, have it `enabled`  
@@ -161,19 +180,25 @@ Extra FX doesnt work in VR so this will have no effect, keep it `disabled` if yo
 
 ### Graphics Adjustments
 **AMD FidelityFX SuperResolution** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs.  
+
 LOD settings:
 - **Force low-res drivers for other cars in first person view** have it `enabled` for performance
 - **Multiplier for car LODs** this sets how far away the car LOD (level of detail) will change, lower multiplier will help with performance but can make cars look worse up close, for performance set it to `75%`.
 - **Multiplier for track LODs** same thing as car LODs but for the track, I would recommend not going below `80%` as it can cause issues.
 - **Multiplier for trees LODs** same thing as car LODs but for 3D trees, you can set it to `0% for best performance` if you don't care about 3D trees, otherwise keep it around `100%`.  
 - **Add extra collider-based LODs for distant cars** will make low quality LODs for cars that don't have them, can help a lot in dense lobbies like VDC, recommended to have it `enabled`. Set the "Limit LODless cars" to a low value between 5 to 10 for best performance.
+
 **Post processing antialiasing** set to `disabled` as post process AA doesnt work in VR (Will update this if it changes)  
+
 **Accessible color buffer > Full resolution for better quality** set to `disabled` for a tiny boost in performance  
+
 **Draw grooves over track, but before dynamic entities** Can help with performance but can also cause issues on some track (Like mirror / see through roads), use with caution.  
 
 ### lighting FX
 **Cars casting lights** set this to a lower amount like `5` for better performance in dense lobbies, lights are expensive performance wise.
+
 **Disable mirroring in first person view**"helps with performance a bit, have it `enabled`  
+
 **Enable lighting in reflections** `disabled` for a performance boost  
 
 ### Neck FX
@@ -183,6 +208,7 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 
 ### Smart Mirror
 **Custom render distance** `enabled` and set the distance to 400 meters if you use High Quality mirrors in video settings, helps with performance.
+
 **Real mirrors** highly recommended in VR, makes the mirrors change perspective based on your head movement also lets you adjust mirror positioning through the "Mirrors" app in-game
 - **Active** `enabled`
 - **Alter FOV** set based on your preference, I have it `disabled`
@@ -190,22 +216,29 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 
 ### Weather FX
 **Weather style** this should be set to either `Pure Gamma` or `Pure LCS`, Gamma is better performance wise as of now but LCS will produce a more natural image (Can have various issues).  
+
 **Replace YEBIS with lightweight alternative** `enabled`, helps a lot to reduce the performance impact of post-processing, does not work with some pp filters like C13.  
+
 **Automatically guess white reference point** This can make the UI very bright when using Pure, `disable` it.  
 
 ### Mode Tweaks VR:
 Make sure the extension is enabled (Active)  
+
 **Single Pass Stereo** Highly recommend to `enable` this, helps a lot with CPU load, can cause certain Pure effects to not work. Might work for AMD GPUs too.  
+
 **Single YEBIS pass** makes post processing slightly less demanding to run, `enable` for performance if needed, can cause certain Pure effects to not work.  
+
 **Nvidia VRS** also known as Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
 - **Nvidia VRS** `enabled`
 - **VRS preset** `Custom`
 - **VRS rate** `High performance`, can set to Highest performance if you need every bit of performance but it will be more visible.
-- **VRS detailed area** `Balanced`, set it to `Wide` if you use a Quest 3 or Pico 4 as they will show foveated rendering more clearly.  
+- **VRS detailed area** `Balanced`, set it to `Wide` if you use a Quest 3 or Pico 4 as they will show foveated rendering more clearly.
+
 You can also test using the "VRS preset" presets.
 
 **Corners masking optimization** Recommended to keep this one `enabled`, helps with performance but will create a black area around the VR image in the game window  
+
 **Custom VR HUD rendering** recommended to keep this `enabled` as it makes the HUD work better in VR  
 
 ## 7. OpenComposite and OpenXR Toolkit
