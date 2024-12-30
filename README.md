@@ -93,7 +93,7 @@ These are some video presets I made if you don't want to read through the settin
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
 - High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)  
 - Balanced: [Link here](https://acstuff.club/s/MvZ2)
-- High Quality: [Link here](https://acstuff.club/s/GKoQ)
+- High Quality: [Link here](https://acstuff.club/s/GKoQ) (For best graphics find a good pp filter)  
 
 ## 5.2 Video Settings Explained
 
