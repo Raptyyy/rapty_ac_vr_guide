@@ -49,6 +49,7 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 - Make sure you are on the latest version of CSP
 - Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
 - There is an installation guide in the Pure post, follow it thouroghly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
+  - Incorrect installation of Pure can cause major performance issues !
 - Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
 
 ## 5. Video Settings (Settings > Assetto Corsa > Video)
@@ -147,7 +148,7 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 
 ### Mode Tweaks VR:
 Make sure the extension is enabled (Active)  
-"**Single Pass Stereo**" Highly recommend to enable this, helps a lot with CPU load, can cause certain Pure effects to not work.  
+"**Single Pass Stereo**" Highly recommend to enable this, helps a lot with CPU load, can cause certain Pure effects to not work. Might work for AMD GPUs too.  
 "**Single YEBIS pass"** makes post processing slightly less demanding to run, enable for performance if needed, can cause certain Pure effects to not work.  
 "**Nvidia VRS**" also known as Foveated rendering is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
