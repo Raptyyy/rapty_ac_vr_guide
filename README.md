@@ -17,8 +17,8 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 10. [Additional Notes](#9-additional-notes)
 
 Quick links: 
-[Video presets](#51-video-presets-for-vr)
-[CSP presets](#61-csp-setting-presets)
+- [Video presets](#51-video-presets-for-vr)  
+- [CSP presets](#61-csp-setting-presets)  
 
 
 ## 1. Prerequisites
