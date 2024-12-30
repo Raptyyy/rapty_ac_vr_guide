@@ -281,7 +281,7 @@ Recommended settings for the Toolkit (Set these in-game):
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
 ## 8. VRPerfKit
-VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR.  
+VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR (OpenComposite).  
 This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen) and want some of the same functionality.  
 > [!NOTE]
 > Since foveated rendering is built into CSP itself I don't recommend this utility as much nowadays. its only beneficial to advanced users who want to tweak things further.
