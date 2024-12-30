@@ -64,7 +64,7 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 
 ## 5. Video Settings
 This covers all the settings in Content Manager > Settings > Video  
-Note that in Content Manager some of the settings have a green "i" icon next to them that will show what each setting does and the performance impact
+Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
 ### Resolution and FPS
 "**Rendering Mode**" should already be set depending on your headset as shown above.  
 "**Fullscreen**" will simply display the game in Fullscreen instead of a window, recommended to have it enabled as it slightly helps with performance but its not a must.  
@@ -138,6 +138,7 @@ LOD settings:
 
 ### Lightning FX
 "**Cars casting lights**" set this to a lower amount for better performance in dense lobbies, lights are expensive performance wise.
+"**Disable mirroring in first person view**" helps with performance a bit
 "**Enable lightning in reflections**" disable for a performance boost
 
 ### Neck FX
