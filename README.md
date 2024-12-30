@@ -19,7 +19,8 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 Quick links: 
 - [Video presets](#51-video-presets-for-vr)  
 - [CSP presets](#61-csp-setting-presets)  
-
+- [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)  
+- [What is Foveated Rendering](#9-what-is-foveated-rendering)  
 
 ## 1. Prerequisites
 - Legit copy of Assetto Corsa (Pirated copies do not get any support or help in the CSP discord)
@@ -85,7 +86,7 @@ Note that in Content Manager most settings have a green "i" icon next to them th
 ## 5.1 Video Presets for VR
 These are some video presets I made if you dont want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
-- High Performance: [Link here](https://acstuff.club/s/lW4B)
+- High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)  
 - Balanced: [Link here](https://acstuff.club/s/MvZ2)
 - High Quality: [Link here](https://acstuff.club/s/GKoQ)
 
