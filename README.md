@@ -2,7 +2,7 @@
 
 The purpose of this guide is to help with basic VR setup and cover some of the main settings and features.  
 It also covers usage of OpenComposite and the OpenXR Toolkit  
-This guide is written with Content Manager and Custom Shaders Patch in mind, not guaranteed to work with vanilla Assetto Corsa.
+This guide is written with Content Manager and Custom Shaders Patch in mind, not intended to work with vanilla Assetto Corsa.
 
 ## 0. Table of Contents
 1. [Prerequisites](#1-prerequisites)  
