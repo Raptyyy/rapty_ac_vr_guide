@@ -12,6 +12,14 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 5. [Video Settings](#5-video-settings)  
 6. [Custom Shaders Patch settings](#6-custom-shaders-patch-settings)  
 7. [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)
+8. [VRPerfKit](#8-vrperfkit)
+9. [What is Foveated Rendering](#9-what-is-foveated-rendering)
+10. [Additional Notes](#9-additional-notes)
+
+Quick links: 
+[Video presets](#51-video-presets-for-vr)
+[CSP presets](#61-csp-setting-presets)
+
 
 ## 1. Prerequisites
 - Legit copy of Assetto Corsa (Pirated copies do not get any support or help in the CSP discord)
@@ -26,6 +34,7 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 - In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
   - If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
 - Try launching the game in singleplayer and see if everything works.
+Important to note that Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift should be easiest to set up.  
 
 ### SteamVR headsets (Vive, Index, Bigscreen beyond)
 - Make sure your headset is connected to your PC
@@ -72,6 +81,16 @@ Pure, PureVR - these come with Pure, PureVR would be my recommendation out of th
 ## 5. Video Settings
 This covers all the settings in Content Manager > Settings > Video  
 Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
+
+## 5.1 Video Presets for VR
+These are some video presets I made if you dont want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
+Make sure to double check the Rendering Mode so that its set correctly for your headset !  
+- High Performance: [Link here](https://acstuff.club/s/lW4B)
+- Balanced: [Link here](https://acstuff.club/s/MvZ2)
+- High Quality: [Link here](https://acstuff.club/s/GKoQ)
+
+## 5.2 Video Settings Explained
+
 ### Resolution and FPS
 "**Rendering Mode**" should already be set depending on your headset as shown above.  
 "**Fullscreen**" will simply display the game in Fullscreen instead of a window, recommended to have it enabled as it slightly helps with performance but its not a must.  
@@ -115,6 +134,13 @@ I would recommend not messing with these settings as they dont really have any m
 
 ## 6. Custom Shaders Patch settings
 I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR performance.  
+
+## 6.1 CSP Setting Presets
+These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
+Note: Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.  
+High Performance - [Link here](https://acstuff.club/s/rFa) (This preset has a lot of modules disabled for a little extra performance)  
+Balanced - [Link here](https://acstuff.club/s/OG43)
+High Quality - [Link here](https://acstuff.club/s/Lywh)
 
 ### General Patch Settings
 "**Audio > Decompress Samples**" recommended to enable it if you have more than 16GB of RAM, helps with CPU load.  
@@ -169,7 +195,7 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 Make sure the extension is enabled (Active)  
 "**Single Pass Stereo**" Highly recommend to enable this, helps a lot with CPU load, can cause certain Pure effects to not work. Might work for AMD GPUs too.  
 "**Single YEBIS pass"** makes post processing slightly less demanding to run, enable for performance if needed, can cause certain Pure effects to not work.  
-"**Nvidia VRS**" also known as Foveated rendering is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
+"**Nvidia VRS**" also known as Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
 - "**Nvidia VRS**" enabled
 - "**VRS preset**" Custom
@@ -181,8 +207,9 @@ You can also test using the "VRS preset" presets but they seem to be made for Pi
 "**Custom VR HUD rendering**" recommended to keep this enabled as it makes the HUD work better in VR  
 
 ## 7. OpenComposite and OpenXR Toolkit
-OpenComposite allows you to play SteamVR games without actually needing SteamVR, it is highly recommended to use for advanced users wanting more performance.  
-On non native SteamVR headsets(Quest,Pico,Pimax,WMR) SteamVR simply acts as a middle layer which simply increases resource usage while bringing no real benefit to your VR experience.
+OpenComposite allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
+On non native SteamVR headsets(Quest,Pico,Pimax,WMR) SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
+OpenComposite can also be used with Virtual Desktop when using it with VDXR, [more info here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki)  
 To install OpenComposite:
 - Download the opencomposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
 - Make sure the file is called "openvr_api.dll" and place it in to "steamapps\common\assettocorsa\system\x64", if prompted to overwrite files, press yes.
@@ -191,15 +218,36 @@ To install OpenComposite:
   
 If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
 
-OpenXR Toolkit  
+OpenXR Toolkit (OpenXR only)
 On top of OpenComposite allowing you to not need SteamVR to use SteamVR games, it is also compatible with the OpenXR Toolkit which brings additional functionality and tweaks.
 The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more.
 The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/)  
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.  
 Recommended settings for the Toolkit:
 - Upscaling set to FSR if you need more performance or set to CAS to improve image quality by sharpening the image, strength of 80% to 100% should work best.
-- Foveated rendering (Only Nvidia GPUs and 20 series or newer) set to Preset - Quality - Balanced, this will be a good starting point, adjust as needed. Custom will allow you to tweak things further if you understand how Foveated rendering works.
+- Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) set to Preset - Quality - Balanced, this will be a good starting point, adjust as needed. Custom will allow you to tweak things further if you understand how Foveated rendering works.
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use 94% on my Revern G2 V1. Might not work well with every headset.  
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
+## 8. VRPerfKit
+VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR.  
+This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen) and want some of the same functionality.  
+Since foveatred rendering is built into CSP itself I dont recommend this utility as much nowadays but it is somewhat more adjustable so feel free to try it.  
+[Link to VRPerfkit](https://github.com/fholger/vrperfkit)  
+The installation and usage are explain in the download link.  
+There is a more advanced version of the VRPerfkit with more feature which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
+
+## 9. What is Foveated Rendering
+Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution.  
+As shown in the example below, the center part of the image stays at full resolution while the outer edges become less defined. This is a good thing on most headsets as the lenses have a "sweetspot" which means only the center portion of the lense will display a clear, sharp image anyway. Rendering the whole image at full resolution is wasteful for performance.  
+Foveated rendering might be obvious and undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.   
+<img src="https://i.redd.it/za7loskn6jy21.jpg" width="500">   
+
+Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia GPUs that are 20 series or newer. 
+
+
+## 9. Additional Notes
+As explained earlier, installing Pure correctly is crucial for good performance as a bad Pure installation can cause issues.  
+On some systems using HAGS (Hardware accelerated GPU Scheduling) can cause performance issues, you can change it in Windows Settings > System > Display > Graphics settings or just search for "GPU" in the start search.  
+Reshade is available for VR too but it can also significantly impact performance so generally would not recommend using it.  
 
