@@ -228,7 +228,7 @@ Make sure the extension is enabled (Active)
 
 **Single YEBIS pass** makes post processing slightly less demanding to run, `enable` for performance if needed, can cause certain Pure effects to not work.  
 
-**Nvidia VRS** also known as Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
+**Nvidia VRS** also known as Foveated rendering ([What is Foveated Rendering](#9-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
 - **Nvidia VRS** `enabled`
 - **VRS preset** `Custom`
@@ -260,7 +260,7 @@ The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/)
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.  
 Recommended settings for the Toolkit:
 - Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
-- Foveated rendering ([What is Foveated Rendering?](#8-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
+- Foveated rendering ([What is Foveated Rendering](#9-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
