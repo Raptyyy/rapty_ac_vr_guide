@@ -163,4 +163,9 @@ You can also test using the "VRS preset" presets but they seem to be made for Pi
 ### 7. OpenComposite
 OpenComposite allows you to play SteamVR games without actually needing SteamVR.  
 On non native SteamVR headsets(Quest,Pico,Pimax,WMR) SteamVR simply acts as a middle layer which simply increases resource usage while bringing no real benefit to your VR experience.
-
+To install OpenComposite:
+- Download the opencomposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
+- Make sure the file is called "openvr_api.dll" and place it in to "steamapps\common\assettocorsa\system\x64", if prompted to overwrite files, press yes.
+- In Content Manager > Settings > Video set "Rendering Mode" to "OpenVR"
+- You also need to make sure your headset is using its native OpenXR Runtime and not the SteamVR one  
+If you encounter any issues using OpenComposite, I have the original dll file uploaded here, simply put it in the same spot as the opencomposite dll and overwrite, this will remove opencomposite.
