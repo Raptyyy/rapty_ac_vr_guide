@@ -14,7 +14,7 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 7. [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)
 8. [VRPerfKit](#8-vrperfkit)
 9. [What is Foveated Rendering](#9-what-is-foveated-rendering)
-10. [Additional Notes](#9-additional-notes)
+10. [Additional Notes](#10-additional-notes)
 
 Quick links: 
 - [Video presets](#51-video-presets-for-vr)  
@@ -247,7 +247,7 @@ Foveated rendering might be obvious and undesirable on headsets that use pancake
 Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia GPUs that are 20 series or newer. 
 
 
-## 9. Additional Notes
+## 10. Additional Notes
 As explained earlier, installing Pure correctly is crucial for good performance as a bad Pure installation can cause issues.  
 On some systems using HAGS (Hardware accelerated GPU Scheduling) can cause performance issues, you can change it in Windows Settings > System > Display > Graphics settings or just search for "GPU" in the start search.  
 Reshade is available for VR too but it can also significantly impact performance so generally would not recommend using it.  
