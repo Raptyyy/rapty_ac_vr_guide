@@ -273,7 +273,8 @@ OpenXR Toolkit (OpenXR only)
 OpenComposite also lets you use the OpenXR Toolkit which brings additional functionality and tweaks.  
 The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more. The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/#downloads)  
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.  
-Recommended settings for the Toolkit:
+<img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/ad7065aa9a3be800edde90a72d2039db4e025605/resources/companion_5K7N6kLbKY.png" width="250">   
+Recommended settings for the Toolkit (Set these in-game):
 - Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
 - Foveated rendering ([What is Foveated Rendering](#9-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
