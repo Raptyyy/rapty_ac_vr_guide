@@ -6,11 +6,11 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 
 ## 0. Table of Contents
 1. [Prerequisites](#1-prerequisites)  
-2. Basic VR Setup  
-3. Setting up Custom Shaders Patch (CSP)  
-4. Setting up Pure  
-5. Video Settings (Settings > Assetto Corsa > Video)  
-6. Custom Shaders Patch settings  
+2. [Basic VR Setup](#2-basic-vr-setup)  
+3. [Setting up Custom Shaders Patch (CSP)](#3-setting-up-custom-shaders-patch)  
+4. [Setting up Pure](#4-setting-up-pure)  
+5. [Video Settings](#5-video-settings-settings-assetto-corsa-video)  
+6. [Custom Shaders Patch settings](#6-custom-shaders-patch-settings)  
 7. [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)
 
 ## 1. Prerequisites
