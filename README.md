@@ -140,7 +140,7 @@ I will not cover every setting in CSP (that would be a lot to cover), but only t
 These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
 Note: Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.  
 - High Performance - [Link here](https://acstuff.club/s/rFa) (This preset has a lot of modules disabled for a little extra performance)  
-= Balanced - [Link here](https://acstuff.club/s/OG43)  
+- Balanced - [Link here](https://acstuff.club/s/OG43)  
 - High Quality - [Link here](https://acstuff.club/s/Lywh)  
 
 ### General Patch Settings
