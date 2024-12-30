@@ -301,6 +301,11 @@ Foveated rendering is a method in VR to achieve greater performance by rendering
 
 ## 10. Additional Notes
 
+When it comes to VR performance, the most important thing is having a consistent framerate. You want to utilize your GPU as much as possible by increasing the headsets resolution or graphical settings, but also leaving enough headroom to avoid any fluctuation in performance. You can use things like SteamVR performance graph, OpenXR advanced overlay or programs like GPU-Z to monitor GPU and CPU usage and adjust settings as needed.  
+
+If your framerate is stuck to a specific value like 30, 45 or 60 fps, its likely that you have reprojection enabled. Reprojection halves your framerate and inserts fake frames to reduce the load on your system. You can disable this behaviour if needed.  
+On Oculus / Meta headsets it should be called ASW or Asynchronous Spacewarp, on SteamVR its motion smoothing, on WMR you should be able to adjust it in the OpenXR Toolkit, Pimax has it in the PiTool.  
+
 > [!WARNING]
 > On some systems using HAGS (Hardware accelerated GPU Scheduling) can cause performance issues, you can change it in Windows Settings > System > Display > Graphics settings or just search for "GPU" in the start search.  
 
