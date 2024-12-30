@@ -34,14 +34,12 @@ Quick links:
 2. In the Oculus App, Settings > General enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
 3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
   3.1 If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
-4. Try launching the game in singleplayer and see if everything works.
 Important to note that Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift should be easiest to set up.  
 
 ### SteamVR headsets (Vive, Index, Bigscreen beyond)
 1. Make sure your headset is connected to your PC
 2. Install SteamVR from Steam
 3. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
-4. Try launching the game in singleplayer and see if everything works.
 
 ### Windows Mixed Reality headsets
 1. Make sure your headset is connected to your PC
@@ -49,14 +47,12 @@ Important to note that Oculus / Meta headsets can also be used with SteamVR, Ope
 3. Install SteamVR from Steam
 4. Install Windows Mixed Reality for SteamVR from Steam
 5. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
-6. Try launching the game in singleplayer and see if everything works.
 
 ### Pimax headsets
 1. Make sure your headset is connected to your PC
 2. Install PiTool
 3. Install SteamVR from Steam
 4. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
-5. Try launching the game in singleplayer and see if everything works.
 
 ## 3. Setting up Custom Shaders Patch (CSP)
 1. In Content Manager go to Settings > Custom Shader Patch
