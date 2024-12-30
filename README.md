@@ -69,7 +69,7 @@ Important to note that Oculus / Meta headsets can also be used with SteamVR, Ope
 Pure is recommended for VR as it delivers a more realistic and consistent image, also has a lot of adjustability.
 - Make sure you are on the latest version of CSP
 - Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
-- There is an installation guide in the Pure post, follow it thouroghly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
+- There is an installation guide in the Pure post, follow it thoroughly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
   - Incorrect installation of Pure can cause major performance issues !
 - Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
 
