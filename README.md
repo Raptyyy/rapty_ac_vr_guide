@@ -35,7 +35,8 @@ Quick links:
 3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
   3.1 If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
 
-Important to note that Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift rendering mode should be easiest to set up.  
+> [!NOTE]
+> Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift rendering mode should be easiest to set up.  
 
 ### SteamVR headsets (Vive, Index, Bigscreen beyond)
 1. Make sure your headset is connected to your PC
@@ -55,6 +56,9 @@ Important to note that Oculus / Meta headsets can also be used with SteamVR, Ope
 3. Install SteamVR from Steam
 4. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
 
+> [!TIP]
+> Once you have the correct settings applied for your headset, test it out in singleplayer first before joining a server !
+
 ## 3. Setting up Custom Shaders Patch (CSP)
 1. In Content Manager go to Settings > Custom Shader Patch  
   1.1 If you are prompted to install Custom Shaders Patch, press install  
@@ -68,8 +72,10 @@ Pure is recommended for VR as it delivers a more realistic and consistent image,
 1. Make sure you are on the latest version of CSP
 2. Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
 3. There is an installation guide in the Pure post, follow it thoroughly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
-  3.1 Incorrect installation of Pure can cause major performance issues !
 4. Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
+
+> [!WARNING]
+> Incorrect installation of Pure can cause major performance issues !
 
 ## 4.1 Pure pp filters 
 Pure, PureVR - these come with Pure, PureVR would be my recommendation out of those two  
@@ -79,7 +85,8 @@ Pure, PureVR - these come with Pure, PureVR would be my recommendation out of th
 
 ## 5. Video Settings
 This covers all the settings in Content Manager > Settings > Video  
-Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
+> [!TIP]
+> Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
 
 ## 5.1 Video Presets for VR
 These are some video presets I made if you don't want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
@@ -156,7 +163,8 @@ I will not cover every setting in CSP (that would be a lot to cover), but only t
 
 ## 6.1 CSP Setting Presets
 These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
-Note: Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.  
+> [!NOTE]
+> Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.  
 - High Performance - [Link here](https://acstuff.club/s/rFa) (This preset has a lot of modules disabled for a little extra performance)  
 - Balanced - [Link here](https://acstuff.club/s/OG43)  
 - High Quality - [Link here](https://acstuff.club/s/Lywh)  
@@ -244,15 +252,22 @@ You can also test using the "VRS preset" presets.
 
 ## 7. OpenComposite and OpenXR Toolkit
 OpenComposite allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
-On non native SteamVR headsets(Quest,Pico,Pimax,WMR) SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
+On non native SteamVR headsets like Quest, Pimax, WMR SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
 OpenComposite can also be used with Virtual Desktop when using it with VDXR, [more info here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki)  
+> [!IMPORTANT]
+> Using OpenComposite with native SteamVR headsets wont really bring much benefit since they will require SteamVR either with OpenVR or OpenXR.
+
+> [!WARNING]
+> Pico headsets dont have their own OpenXR runtime, so to bypass SteamVR you would need to use Virtual Desktop with VDXR and OpenComposite.
+
 To install OpenComposite:
 1. Download the opencomposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
 2. Make sure the file is called "openvr_api.dll" and place it in to "steamapps\common\assettocorsa\system\x64", if prompted to overwrite files, press yes.
 3. In Content Manager > Settings > Video set "Rendering Mode" to "OpenVR"
 4. You also need to make sure your headset is using its native OpenXR Runtime and not the SteamVR one
-  
-If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
+
+> [!IMPORTANT]
+> If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
 
 OpenXR Toolkit (OpenXR only)
 On top of OpenComposite allowing you to not need SteamVR to use SteamVR games, it is also compatible with the OpenXR Toolkit which brings additional functionality and tweaks.
@@ -268,22 +283,28 @@ There is additional functionality in the toolkit which [you can see here](https:
 ## 8. VRPerfKit
 VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR.  
 This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen) and want some of the same functionality.  
-Since foveatred rendering is built into CSP itself I don't recommend this utility as much nowadays but it is somewhat more adjustable so feel free to try it.  
-[Link to VRPerfkit](https://github.com/fholger/vrperfkit)  
-The installation and usage are explain in the download link.  
+> [!NOTE]
+> Since foveated rendering is built into CSP itself I don't recommend this utility as much nowadays. its only beneficial to advanced users who want to tweak things further.
+
+[Link to VRPerfkit](https://github.com/fholger/vrperfkit), The installation and usage are explained in the download link.  
 There is a more advanced version of the VRPerfkit with more feature which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
 
 ## 9. What is Foveated Rendering
-Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution.  
-As shown in the example below, the center part of the image stays at full resolution while the outer edges become less defined. This is a good thing on most headsets as the lenses have a "sweetspot" which means only the center portion of the lense will display a clear, sharp image anyway. Rendering the whole image at full resolution is wasteful for performance.  
-Foveated rendering might be obvious and undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.   
+Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
 <img src="https://i.redd.it/za7loskn6jy21.jpg" width="500">   
 
-Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia GPUs that are 20 series or newer. 
+> [!WARNING]
+> Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.
 
+> [!NOTE]
+> Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia GPUs that are 20 series or newer. 
 
 ## 10. Additional Notes
-As explained earlier, installing Pure correctly is crucial for good performance as a bad Pure installation can cause issues.  
-On some systems using HAGS (Hardware accelerated GPU Scheduling) can cause performance issues, you can change it in Windows Settings > System > Display > Graphics settings or just search for "GPU" in the start search.  
-Reshade is available for VR too but it can also significantly impact performance so generally would not recommend using it.  
+
+> [!WARNING]
+> On some systems using HAGS (Hardware accelerated GPU Scheduling) can cause performance issues, you can change it in Windows Settings > System > Display > Graphics settings or just search for "GPU" in the start search.  
+
+> [!NOTE]
+> Reshade is available for VR too but it can also significantly impact performance so generally would not recommend using it.  
+
 
