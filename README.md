@@ -56,11 +56,18 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 - If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post
 
 ## 4. Setting up Pure
+Pure is recommended for VR as it delivers a more realistic and consistent image, also has a lot of adjustability.
 - Make sure you are on the latest version of CSP
 - Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
 - There is an installation guide in the Pure post, follow it thouroghly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
   - Incorrect installation of Pure can cause major performance issues !
 - Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
+
+## 4.1 Pure pp filters 
+Pure, PureVR - these come with Pure, PureVR would be my recommendation out of those two  
+[Natural Mod PP Filter](https://www.overtake.gg/downloads/natural-mod-pp-filter.4551/) Natural looking filter with good performance  
+[Improved Visuals PureCS Filter](https://www.overtake.gg/downloads/improved-visuals-pure-cs-filter-screen-and-vr-ppfilter.54256/) VR focused pp filter with great adjustability  
+[C13 Aegis Filter](https://www.overtake.gg/downloads/c13-aegis-post-processing-filter.59979/) Probably one of the best looking filters, newer versions are available on patreon, might not be great performance wise
 
 ## 5. Video Settings
 This covers all the settings in Content Manager > Settings > Video  
@@ -107,7 +114,7 @@ Note that in Content Manager most settings have a green "i" icon next to them th
 I would recommend not messing with these settings as they dont really have any meaningful impact and can cause issues.
 
 ## 6. Custom Shaders Patch settings
-I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR.
+I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR performance.  
 
 ### General Patch Settings
 "**Audio > Decompress Samples**" recommended to enable it if you have more than 16GB of RAM, helps with CPU load.  
@@ -180,8 +187,9 @@ To install OpenComposite:
 - Download the opencomposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
 - Make sure the file is called "openvr_api.dll" and place it in to "steamapps\common\assettocorsa\system\x64", if prompted to overwrite files, press yes.
 - In Content Manager > Settings > Video set "Rendering Mode" to "OpenVR"
-- You also need to make sure your headset is using its native OpenXR Runtime and not the SteamVR one  
-If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same spot as the opencomposite dll and overwrite, this will remove opencomposite.  
+- You also need to make sure your headset is using its native OpenXR Runtime and not the SteamVR one
+  
+If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
 
 OpenXR Toolkit  
 On top of OpenComposite allowing you to not need SteamVR to use SteamVR games, it is also compatible with the OpenXR Toolkit which brings additional functionality and tweaks.
