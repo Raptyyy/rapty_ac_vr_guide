@@ -4,6 +4,17 @@ The purpose of this guide is to help with basic VR setup and cover some of the m
 It also covers usage of OpenComposite and the OpenXR Toolkit  
 This guide is written with Content Manager and Custom Shaders Patch in mind, not guaranteed to work with vanilla Assetto Corsa.
 
+## 0. Table of Contents
+1. [Prerequisites](#rerequisites)  
+2. Basic VR Setup  
+3. Setting up Custom Shaders Patch (CSP)  
+4. Setting up Pure  
+5. Video Settings (Settings > Assetto Corsa > Video)  
+6. Custom Shaders Patch settings  
+7. OpenComposite and OpenXR Toolkit  
+
+
+ 
 ## 1. Prerequisites
 - Legit copy of Assetto Corsa (Pirated copies do not get any support or help in the CSP discord)
 - Latest version of Content Manager  
