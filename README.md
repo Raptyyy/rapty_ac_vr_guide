@@ -48,7 +48,7 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 ## 4. Setting up Pure
 - Make sure you are on the latest version of CSP
 - Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
-- There is an installation guide in the Pure post, follow it thouroghly
+- There is an installation guide in the Pure post, follow it thouroghly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
 - Make sure that exposure is set to 100% in Settings > Assetto Corsa > Miscellaneous > Exposure
 
 ## 5. Video Settings (Settings > Assetto Corsa > Video)
