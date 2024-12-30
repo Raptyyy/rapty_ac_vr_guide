@@ -91,6 +91,9 @@ This covers all the settings in Content Manager > Settings > Video
 ## 5.1 Video Presets for VR
 These are some video presets I made if you don't want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
+> [!WARNING]
+> Save your current settings as a preset !
+
 - High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)  
 - Balanced: [Link here](https://acstuff.club/s/MvZ2)
 - High Quality: [Link here](https://acstuff.club/s/GKoQ) (For best graphics find a good pp filter)  
@@ -164,7 +167,11 @@ I will not cover every setting in CSP (that would be a lot to cover), but only t
 ## 6.1 CSP Setting Presets
 These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
 > [!NOTE]
-> Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.  
+> Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.
+
+> [!WARNING]
+> Save your current settings as a preset !
+
 - High Performance - [Link here](https://acstuff.club/s/rFa) (This preset has a lot of modules disabled for a little extra performance)  
 - Balanced - [Link here](https://acstuff.club/s/OG43)  
 - High Quality - [Link here](https://acstuff.club/s/Lywh)  
