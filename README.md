@@ -8,19 +8,19 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 1. [Prerequisites](#1-prerequisites)  
 2. [Basic VR Setup](#2-basic-vr-setup)  
 3. [Setting up Custom Shaders Patch (CSP)](#3-setting-up-custom-shaders-patch-csp)  
-4. [Setting up Pure](#4-setting-up-pure)  
-5. [Video Settings](#5-video-settings)  
-6. [Custom Shaders Patch settings](#6-custom-shaders-patch-settings)  
-7. [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)
-8. [VRPerfKit](#8-vrperfkit)
-9. [What is Foveated Rendering](#9-what-is-foveated-rendering)
-10. [Additional Notes](#10-additional-notes)
+4. [Setting up Pure](#4-setting-up-pure)
+5. [Video and CSP Presets](#5-video-and-csp-presets)  
+6. [Video Settings](#6-video-settings)  
+7. [Custom Shaders Patch settings](#7-custom-shaders-patch-settings)  
+8. [OpenComposite and OpenXR Toolkit](#8-opencomposite-and-openxr-toolkit)
+9. [VRPerfKit](#9-vrperfkit)
+10. [What is Foveated Rendering](#10-what-is-foveated-rendering)
+11. [Additional Notes](#11-additional-notes)
 
 Quick links: 
-- [Video presets](#51-video-presets-for-vr)  
-- [CSP presets](#61-csp-setting-presets)  
-- [OpenComposite and OpenXR Toolkit](#7-opencomposite-and-openxr-toolkit)  
-- [What is Foveated Rendering](#9-what-is-foveated-rendering)  
+- [Settings Presets](#5-video-and-csp-presets) 
+- [OpenComposite and OpenXR Toolkit](#8-opencomposite-and-openxr-toolkit)  
+- [What is Foveated Rendering](#10-what-is-foveated-rendering)  
 
 ## 1. Prerequisites
 - Non-pirated copy of Assetto Corsa (Pirated copies do not get any support or help in the CSP discord)
@@ -81,13 +81,9 @@ Pure is recommended for VR as it delivers a more realistic and consistent image,
 Pure, PureVR - these come with Pure, PureVR would be my recommendation out of those two  
 [Natural Mod PP Filter](https://www.overtake.gg/downloads/natural-mod-pp-filter.4551/) Natural looking filter with good performance  
 [Improved Visuals PureCS Filter](https://www.overtake.gg/downloads/improved-visuals-pure-cs-filter-screen-and-vr-ppfilter.54256/) VR focused pp filter with great adjustability  
-[C13 Aegis Filter](https://www.overtake.gg/downloads/c13-aegis-post-processing-filter.59979/) Probably one of the best looking filters, newer versions are available on patreon, might not be great performance wise
+[C13 Aegis Filter](https://www.overtake.gg/downloads/c13-aegis-post-processing-filter.59979/) Probably one of the best looking filters, newer versions are available on patreon, might not be great performance wise  
 
-## 5. Video Settings
-This covers all the settings in Content Manager > Settings > Video  
-> [!TIP]
-> Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
-
+## 5 Video and CSP Presets
 ## 5.1 Video Presets for VR
 These are some video presets I made if you don't want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
@@ -96,9 +92,25 @@ Make sure to double check the Rendering Mode so that its set correctly for your 
 
 - High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)  
 - Balanced: [Link here](https://acstuff.club/s/MvZ2)
-- High Quality: [Link here](https://acstuff.club/s/GKoQ) (For best graphics find a good pp filter)  
+- High Quality: [Link here](https://acstuff.club/s/GKoQ) (For best graphics find a good pp filter)
 
-## 5.2 Video Settings Explained
+## 5.2 CSP Setting Presets
+These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
+> [!NOTE]
+> Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.
+
+> [!WARNING]
+> Save your current settings as a preset !
+
+- High Performance - [Link here](https://acstuff.club/s/rFa) (This preset has a lot of modules disabled for a little extra performance)  
+- Balanced - [Link here](https://acstuff.club/s/OG43)  
+- High Quality - [Link here](https://acstuff.club/s/Lywh)  
+
+
+## 6. Video Settings
+This covers all the settings in Content Manager > Settings > Video  
+> [!TIP]
+> Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
 
 ### Resolution and FPS
 **Rendering Mode** should already be set depending on your headset as shown above.  
@@ -161,20 +173,8 @@ Make sure to double check the Rendering Mode so that its set correctly for your 
 ### System
 I would recommend not messing with these settings as they don't really have any meaningful impact and can cause issues.
 
-## 6. Custom Shaders Patch settings
+## 7. Custom Shaders Patch settings
 I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR performance.  
-
-## 6.1 CSP Setting Presets
-These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
-> [!NOTE]
-> Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.
-
-> [!WARNING]
-> Save your current settings as a preset !
-
-- High Performance - [Link here](https://acstuff.club/s/rFa) (This preset has a lot of modules disabled for a little extra performance)  
-- Balanced - [Link here](https://acstuff.club/s/OG43)  
-- High Quality - [Link here](https://acstuff.club/s/Lywh)  
 
 ### General Patch Settings
 **Audio > Decompress Samples** recommended to have it `enabled` if you have more than 16GB of RAM, helps with CPU load.  
@@ -244,7 +244,7 @@ Make sure the extension is enabled (Active)
 
 **Single YEBIS pass** makes post processing slightly less demanding to run, `enable` for performance if needed, can cause certain Pure effects to not work.  
 
-**Nvidia VRS** also known as Foveated rendering ([What is Foveated Rendering](#9-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
+**Nvidia VRS** also known as Foveated rendering ([What is Foveated Rendering](#10-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
 - **Nvidia VRS** `enabled`
 - **VRS preset** `Custom`
@@ -257,7 +257,7 @@ You can also test using the "VRS preset" presets.
 
 **Custom VR HUD rendering** recommended to keep this `enabled` as it makes the HUD work better in VR  
 
-## 7. OpenComposite and OpenXR Toolkit
+## 8. OpenComposite and OpenXR Toolkit
 **OpenComposite** allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
 On non native SteamVR headsets like Quest, Pimax, WMR SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
 OpenComposite can also be used with Virtual Desktop when using it with VDXR, [more info here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki)  
@@ -283,11 +283,11 @@ If you have OpenComposite set up correctly and the Toolkit installed, it should 
 <img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/ad7065aa9a3be800edde90a72d2039db4e025605/resources/companion_5K7N6kLbKY.png" width="250">   
 Recommended settings for the Toolkit (Set these in-game):
 - Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
-- Foveated rendering ([What is Foveated Rendering](#9-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
+- Foveated rendering ([What is Foveated Rendering](#10-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
-## 8. VRPerfKit
+## 9. VRPerfKit
 VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR (OpenComposite).  
 This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen) and want some of the same functionality.  
 > [!NOTE]
@@ -296,7 +296,7 @@ This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen)
 [Link to VRPerfkit](https://github.com/fholger/vrperfkit), The installation and usage are explained in the download link.  
 There is a more advanced version of the VRPerfkit with more feature which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
 
-## 9. What is Foveated Rendering
+## 10. What is Foveated Rendering
 Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
 <img src="https://i.redd.it/za7loskn6jy21.jpg" width="500">   
 
@@ -306,7 +306,7 @@ Foveated rendering is a method in VR to achieve greater performance by rendering
 > [!NOTE]
 > Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia GPUs that are 20 series or newer. 
 
-## 10. Additional Notes
+## 11. Additional Notes
 
 When it comes to VR performance, the most important thing is having a consistent framerate. You want to utilize your GPU as much as possible by increasing the headsets resolution or graphical settings, but also leaving enough headroom to avoid any fluctuation in performance. You can use things like SteamVR performance graph, OpenXR advanced overlay or programs like GPU-Z to monitor GPU and CPU usage and adjust settings as needed.  
 
