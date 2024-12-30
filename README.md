@@ -35,7 +35,7 @@ Quick links:
 3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
   3.1 If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
 
-Important to note that Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift should be easiest to set up.  
+Important to note that Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift rendering mode should be easiest to set up.  
 
 ### SteamVR headsets (Vive, Index, Bigscreen beyond)
 1. Make sure your headset is connected to your PC
