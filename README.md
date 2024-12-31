@@ -308,7 +308,8 @@ You can also test using the "VRS preset" presets.
 **Custom VR HUD rendering** recommended to keep this `enabled` as it makes the HUD work better in VR  
 
 ## 8. OpenComposite and OpenXR Toolkit
-**OpenComposite** allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
+### OpenComposite
+Allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
 On non native SteamVR headsets like Quest, Pimax, WMR SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
 OpenComposite can also be used with Virtual Desktop when using it with VDXR, [more info here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki)  
 > [!IMPORTANT]
@@ -326,7 +327,7 @@ OpenComposite can also be used with Virtual Desktop when using it with VDXR, [mo
 > [!IMPORTANT]
 > If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
 
-**OpenXR Toolkit** (OpenXR only)  
+### OpenXR Toolkit
 OpenComposite also lets you use the OpenXR Toolkit which brings additional functionality and tweaks.  
 The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more. The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/#downloads)  
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.   
