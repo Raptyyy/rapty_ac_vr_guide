@@ -233,12 +233,12 @@ GPU optimizations:
 ### Extra FX
 Extra FX doesnt work in VR so this will have no effect, keep it `disabled` if you don't ever use Extra FX.
 
-### Graphics Adjustments
-**AMD FidelityFX SuperResolution** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs.  
-
 ### GUI
 **New driver tags** recommended to have it `enabled` so you can see driver names in VR. Its not a performance tweak but a very useful thing to have.  
 **Font Scale** Set this to `125%` or higher if you struggle reading the names.  
+
+### Graphics Adjustments
+**AMD FidelityFX SuperResolution** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs.  
 
 LOD settings:
 - **Force low-res drivers for other cars in first person view** have it `enabled` for performance
