@@ -352,7 +352,7 @@ This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen)
 > Since foveated rendering is built into CSP itself I don't recommend this utility as much nowadays. its only beneficial to users who want to tweak things further.
 
 [Link to VRPerfkit](https://github.com/fholger/vrperfkit), The installation and usage are explained in the download link.  
-There is another version of the VRPerfkit called VRPerfKit_RSD with more features which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
+There is another version of the VRPerfkit called VRPerfKit_RSF with more features which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
 
 ## 10. What is Foveated Rendering
 Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
