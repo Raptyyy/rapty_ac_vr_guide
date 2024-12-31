@@ -82,6 +82,8 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 5. Set up OpenComposite, [instructions here](#to-install-opencomposite)  
 6. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
 
+Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
+
 **Using SteamVR:**  
 1. Make sure your headset is connected to your PC  
 2. Install and set up Windows Mixed Reality from the Microsoft Store  
@@ -99,6 +101,8 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 3. Set the OpenXR Runtime to Pimax OpenXR in Pimax Play, [instructions here](https://pimax.com/blogs/blogs/how-to-use-pimax-openxr)  
 5. Set up OpenComposite, [instructions here](#to-install-opencomposite)  
 6. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
+
+Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 
 **Using SteamVR:**  
 1. Make sure your headset is connected to your PC
