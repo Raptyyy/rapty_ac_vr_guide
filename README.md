@@ -46,6 +46,8 @@ Click on your brand of headset to expand the instructions
 4. Set up OpenComposite, [instructions here](#to-install-opencomposite)
 5. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
 
+Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
+
 **Using SteamVR (Generally not recommended):**  
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)
   1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.  
@@ -310,13 +312,13 @@ You can also test using the "VRS preset" presets.
 ## 8. OpenComposite and OpenXR Toolkit
 ### OpenComposite
 Allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
-On non native SteamVR headsets like Quest, Pimax, WMR SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
+On non native SteamVR headsets (Quest, Pimax, WMR) SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
 OpenComposite can also be used with Virtual Desktop when using it with VDXR, [more info here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki)  
 > [!IMPORTANT]
 > Using OpenComposite with native SteamVR headsets wont really bring much benefit since they will require SteamVR either with OpenVR or OpenXR.
 
 > [!WARNING]
-> Pico headsets dont have their own OpenXR runtime, so to bypass SteamVR you would need to use Virtual Desktop with VDXR and OpenComposite.
+> Pico standalone headsets dont have their own OpenXR runtime, so to bypass SteamVR you would need to use Virtual Desktop with VDXR and OpenComposite.
 
 ### To install OpenComposite:
 1. Download the opencomposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
