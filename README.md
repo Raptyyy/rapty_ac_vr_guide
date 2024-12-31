@@ -13,12 +13,12 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 3. [Setting up Custom Shaders Patch (CSP)](#3-setting-up-custom-shaders-patch-csp)  
 4. [Setting up Pure](#4-setting-up-pure)
 5. [Video and CSP Presets](#5-video-and-csp-presets)  
-6. [Video Settings](#6-video-settings)  
-7. [Custom Shaders Patch settings](#7-custom-shaders-patch-settings)  
-8. [OpenComposite and OpenXR Toolkit](#8-opencomposite-and-openxr-toolkit)
-9. [VRPerfKit](#9-vrperfkit)
-10. [What is Foveated Rendering](#10-what-is-foveated-rendering)
-11. [Additional Notes](#11-additional-notes)
+6. [What is Foveated Rendering](#6-what-is-foveated-rendering)  
+7. [Video Settings](#7-video-settings)  
+8. [Custom Shaders Patch settings](#8-custom-shaders-patch-settings)  
+9. [OpenComposite and OpenXR Toolkit](#9-opencomposite-and-openxr-toolkit)  
+10. [VRPerfKit](#10-vrperfkit)  
+11. [Additional Notes](#11-additional-notes)  
 
 Quick links: 
 - [Settings Presets](#5-video-and-csp-presets) 
@@ -161,8 +161,17 @@ These presets are simply to be used as a base for your own preference. Test the 
 - Balanced - [Link here](https://acstuff.club/s/OG43)  
 - High Quality - [Link here](https://acstuff.club/s/Lywh)  
 
+## 6. What is Foveated Rendering
+Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
+<img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/980c83fc6ec2016ade1d3e7c172c3838679fc5f9/resources/fov_rend_example.jpg" width="1280">   
 
-## 6. Video Settings
+> [!WARNING]
+> Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.
+
+> [!NOTE]
+> Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia 16xx, 20xx, 30xx and 40xx series GPUs or newer. 
+
+## 7. Video Settings
 This covers all the settings in Content Manager > Settings > Video  
 > [!TIP]
 > Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
@@ -228,7 +237,7 @@ This covers all the settings in Content Manager > Settings > Video
 ### System
 I would recommend not messing with these settings as they don't really have any meaningful impact and can cause issues.
 
-## 7. Custom Shaders Patch settings
+## 8. Custom Shaders Patch settings
 I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR performance.  
 
 ### General Patch Settings
@@ -316,7 +325,7 @@ You can also test using the "VRS preset" presets.
 
 **Custom VR HUD rendering** recommended to keep this `enabled` as it makes the HUD work better in VR  
 
-## 8. OpenComposite and OpenXR Toolkit
+## 9. OpenComposite and OpenXR Toolkit
 ### OpenComposite
 Allows you to play SteamVR games without actually needing SteamVR, it is highly recommended for users wanting more performance.  
 On non native SteamVR headsets (Quest, Pimax, WMR) SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
@@ -348,7 +357,7 @@ Recommended settings for the Toolkit (Set these in-game):
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
-## 9. VRPerfKit
+## 10. VRPerfKit
 VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR (OpenComposite).  
 This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen) and want some of the same functionality.  
 > [!NOTE]
@@ -356,16 +365,6 @@ This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen)
 
 [Link to VRPerfkit](https://github.com/fholger/vrperfkit), The installation and usage are explained in the download link.  
 There is another version of the VRPerfkit called VRPerfKit_RSF with more features which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
-
-## 10. What is Foveated Rendering
-Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
-<img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/980c83fc6ec2016ade1d3e7c172c3838679fc5f9/resources/fov_rend_example.jpg" width="1280">   
-
-> [!WARNING]
-> Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.
-
-> [!NOTE]
-> Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia 16xx, 20xx, 30xx and 40xx series GPUs or newer. 
 
 ## 11. Additional Notes
 
