@@ -356,7 +356,7 @@ There is another version of the VRPerfkit called VRPerfKit_RSF with more feature
 
 ## 10. What is Foveated Rendering
 Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
-<img src="https://i.redd.it/za7loskn6jy21.jpg" width="500">   
+<img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/980c83fc6ec2016ade1d3e7c172c3838679fc5f9/resources/fov_rend_example.jpg" width="1280">   
 
 > [!WARNING]
 > Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.
