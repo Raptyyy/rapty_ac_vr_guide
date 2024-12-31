@@ -75,7 +75,7 @@ Click on your brand of headset to expand the instructions
 **Using OpenComposite (Highly recommended):**  
 1. Make sure your headset is connected to your PC  
 2. Install and set up Windows Mixed Reality from the Microsoft Store
-3. Install and set up OpenXR Tools for Windows Mixed Reality from the Microsoft Store
+3. Install and set up OpenXR Tools for Windows Mixed Reality from the Microsoft Store  
   3.1. If you see a button that says "Set as active runtime" - press it.  
 5. Set up OpenComposite, [instructions here](#to-install-opencomposite)  
 6. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
