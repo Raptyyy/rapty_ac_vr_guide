@@ -47,9 +47,10 @@ Click on your brand of headset to expand the instructions
 5. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
 
 **Using SteamVR (Generally not recommended):**  
-1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
-2. Install and set up SteamVR from Steam  
-3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"
+1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)
+  1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.  
+3. Install and set up SteamVR from Steam  
+4. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"
 
 ### Oculus / Meta additional notes and troubleshooting  
 
