@@ -149,17 +149,17 @@ These are some video presets I made if you don't want to read through the settin
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
 
 - High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)  
-- Balanced: [Link here](https://acstuff.club/s/MvZ2)
-- High Quality: [Link here](https://acstuff.club/s/GKoQ) (For best graphics find a good pp filter)
+- Balanced: [Link here](https://acstuff.club/s/oFw)
+- High Quality: [Link here](https://acstuff.club/s/hPvJ) (For best graphics find a good pp filter)
 
 ## 5.2 CSP Setting Presets
 These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
 > [!NOTE]
 > Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.
 
-- High Performance - [Link here](https://acstuff.club/s/rFa) (This preset has a lot of modules disabled for a little extra performance)  
-- Balanced - [Link here](https://acstuff.club/s/OG43)  
-- High Quality - [Link here](https://acstuff.club/s/Lywh)  
+- High Performance - [Link here](https://acstuff.club/s/MbOb) (This preset has a lot of modules disabled for a little extra performance)  
+- Balanced - [Link here](https://acstuff.club/s/l1xe)  
+- High Quality - [Link here](https://acstuff.club/s/fi4I)  
 
 ## 6. What is Foveated Rendering
 Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
