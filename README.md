@@ -5,7 +5,10 @@ It also covers usage of OpenComposite and the OpenXR Toolkit
 This guide is written with Content Manager and Custom Shaders Patch in mind, not intended to work with vanilla Assetto Corsa.
 
 > [!NOTE]
-> If you have anything useful to add to the guide or see a mistake, feel free to make an issue and I will correct it.  
+> If you have anything useful to add to the guide or see a mistake, feel free to make an issue and I will correct it.
+
+> [!TIP]
+> Most people should only have to read the first 6 chapters (Up to video settings), beyond that is more advanced explanations, not as needed for most users.
 
 ## 0. Table of Contents
 1. [Prerequisites](#1-prerequisites)  
