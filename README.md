@@ -251,7 +251,7 @@ LOD settings:
 
 **Accessible color buffer > Full resolution for better quality** set to `disabled` for a tiny boost in performance  
 
-**Draw grooves over track, but before dynamic entities** Can help with performance but can also cause issues on some track (Like mirror / see through roads), use with caution.  
+**Draw grooves over track, but before dynamic entities** Can help with performance but can also cause issues on some tracks (Like mirror / see through roads), use with caution.  
 
 ### Lighting FX
 **Cars casting lights** set this to a lower amount like `5` for better performance in dense lobbies, lights are expensive performance wise.
