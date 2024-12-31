@@ -21,9 +21,9 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 11. [Additional Notes](#11-additional-notes)  
 
 Quick links: 
-- [Settings Presets](#5-video-and-csp-presets) 
-- [OpenComposite and OpenXR Toolkit](#8-opencomposite-and-openxr-toolkit)  
-- [What is Foveated Rendering](#10-what-is-foveated-rendering)  
+- [Settings Presets](#5-video-and-csp-presets)
+- [What is Foveated Rendering](#6-what-is-foveated-rendering)  
+- [OpenComposite and OpenXR Toolkit](#9-opencomposite-and-openxr-toolkit)  
 
 ## 1. Prerequisites
 - Non-pirated copy of Assetto Corsa (Pirated copies do not get any support or help in the CSP discord)
