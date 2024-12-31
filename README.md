@@ -163,7 +163,15 @@ These presets are simply to be used as a base for your own preference. Test the 
 
 ## 6. What is Foveated Rendering
 Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
+Foveated rendering is the biggest performance increase that you can get in VR so it is highly recommended to take advantage of it.  
+
 <img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/980c83fc6ec2016ade1d3e7c172c3838679fc5f9/resources/fov_rend_example.jpg" width="1280">   
+
+Ways to enable / use Foveated rendering (Use only one of these methods):  
+- Enable "Nvidia VRS" in Custom Shaders Patch, [explained further here](#nvidia-vrs) (Easiest way to enable it)  
+- Enable Foveated Rendering in the OpenXR Toolkit if you're using OpenComposite, [explained further here](#recommended-settings-for-the-toolkit) (Gives more adjustability compares to Nvidia VRS)  
+- For Pimax users you can enable Foveated Rendering in Pimax Play (More convenient but less options compared to the OpenXR Toolkit)  
+- VRPerfKit also has Foveated Rendering, [explained further here](#10-vrperfkit) (Only recommended for SteamVR users who want more adjustability compared to Nvidia VRS)  
 
 > [!WARNING]
 > Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.
@@ -312,7 +320,8 @@ Make sure the extension is enabled (Active)
 
 **Single YEBIS pass** makes post processing slightly less demanding to run, `enable` for performance if needed, can cause certain Pure effects to not work.  
 
-**Nvidia VRS** also known as Foveated rendering ([What is Foveated Rendering](#10-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
+### Nvidia VRS
+also known as Foveated rendering ([What is Foveated Rendering](#10-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
 - **Nvidia VRS** `enabled`
 - **VRS preset** `Custom`
@@ -351,7 +360,8 @@ The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rend
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.   
 <img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/ad7065aa9a3be800edde90a72d2039db4e025605/resources/companion_5K7N6kLbKY.png" width="250">  
 
-Recommended settings for the Toolkit (Set these in-game):
+### Recommended settings for the Toolkit:
+Set these settings in game through the toolkit menu (CTRL + F2 by default to open or whatever hotkey you change it to).  
 - Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
 - Foveated rendering ([What is Foveated Rendering](#10-what-is-foveated-rendering)) set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further if you understand how Foveated rendering works.
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
