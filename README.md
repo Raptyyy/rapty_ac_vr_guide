@@ -35,6 +35,7 @@ Click on your brand of headset to expand the instructions
 
 **Native Oculus implementation (easiest method):**  
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
+  1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.  
 2. In the Oculus App, Settings > General enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
 3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
 
@@ -48,7 +49,13 @@ Click on your brand of headset to expand the instructions
 **Using SteamVR (Generally not recommended):**  
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
 2. Install and set up SteamVR from Steam  
-3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
+3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"
+
+### Oculus / Meta additional notes and troubleshooting  
+
+- Game lagging when using the headset wirelessly: Your router might not be able to handle the high amount of bandwidth required for a smooth experience, this will generally show as high network latency.
+- USB-C, Make sure your headset runs USB 3 and not USB 2, if it keeps connecting via USB 2 even with a new cable and using a USB 3 port, reset your headset to factory defaults which will fix the issue.
+- using USB-C set the bitrate to 500mbps or higher in the Oculus Debug Tool. More info about the [Oculus Debug Tool here](https://smartglasseshub.com/oculus-debug-tool/).  
 
 </details>
 
