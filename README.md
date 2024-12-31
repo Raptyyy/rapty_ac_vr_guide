@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c4ef00cc-1bf8-41c0-9f61-10fbfac2b697)# VR guide for Assetto Corsa and CSP
+# VR guide for Assetto Corsa and CSP
 
 The purpose of this guide is to help with basic VR setup and cover some of the main settings and features.  
 It also covers usage of OpenComposite and the OpenXR Toolkit  
@@ -70,12 +70,21 @@ Click on your brand of headset to expand the instructions
 
 <details>
   <summary>Windows Mixed Reality headsets</summary>
-  
-1. Make sure your headset is connected to your PC
+
+**Using OpenComposite (Highly recommended):**  
+1. Make sure your headset is connected to your PC  
 2. Install and set up Windows Mixed Reality from the Microsoft Store
+3. Install and set up OpenXR Tools for Windows Mixed Reality from the Microsoft Store
+  3.1. If you see a button that says "Set as active runtime" - press it.  
+5. Set up OpenComposite, [instructions here](#to-install-opencomposite)  
+6. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
+
+**Using SteamVR:**  
+1. Make sure your headset is connected to your PC  
+2. Install and set up Windows Mixed Reality from the Microsoft Store  
 3. Install and set up SteamVR from Steam  
-4. Install Windows Mixed Reality for SteamVR from Steam
-5. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+4. Install Windows Mixed Reality for SteamVR from Steam  
+5. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
 </details>
 
 <details>
