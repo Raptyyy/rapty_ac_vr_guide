@@ -133,10 +133,9 @@ Pure, PureVR - these come with Pure, PureVR would be my recommendation out of th
 [C13 Aegis Filter](https://www.overtake.gg/downloads/c13-aegis-post-processing-filter.59979/) Probably one of the best looking filters, newer versions are available on patreon, might not be great performance wise  
 
 ## 5. Video and CSP Presets
-## 5.1 Video Presets for VR
 > [!WARNING]
-> Save your current settings as a preset !
-
+> Save your current settings as presets in Content Manager !
+## 5.1 Video Presets for VR
 These are some video presets I made if you don't want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
 
