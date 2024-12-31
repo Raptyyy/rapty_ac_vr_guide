@@ -90,9 +90,17 @@ Click on your brand of headset to expand the instructions
 
 <details>
   <summary>Pimax headsets</summary>
-  
+
+**Using OpenComposite (Highly recommended):**  
+1. Make sure your headset is connected to your PC  
+2. Install and set up Pimax Play, [link here](https://pimax.com/pages/downloads-manuals)  
+3. Set the OpenXR Runtime to Pimax OpenXR in Pimax Play, [instructions here](https://pimax.com/blogs/blogs/how-to-use-pimax-openxr)  
+5. Set up OpenComposite, [instructions here](#to-install-opencomposite)  
+6. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
+
+**Using SteamVR:**  
 1. Make sure your headset is connected to your PC
-2. Install PiTool
+2. Install and set up Pimax Play, [Link here](https://pimax.com/pages/downloads-manuals)
 3. Install and set up SteamVR from Steam  
 4. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
 </details>
