@@ -41,7 +41,7 @@ Click on your brand of headset to expand the instructions
 
 **Using Virtual Desktop and OpenComposite (Can give better results however costs money):**  
 1. Purchase Virtual Desktop on the Oculus / Meta store (do not buy it on steam itself)
-2. Follow the instructions provided in Virtual Desktop to connect your headset to your PC.   
+2. Follow the instructions provided in Virtual Desktop to connect your headset to your PC (Quest / Air Link is not required).   
 3. Open the Virtual Desktop Streamer application, and under settings, select VirtualDesktopXR (VDXR) as the OpenXR runtime.
 4. Set up OpenComposite, [instructions here](#to-install-opencomposite)
 5. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
