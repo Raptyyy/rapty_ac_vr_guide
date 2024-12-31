@@ -29,32 +29,56 @@ Quick links:
 - Latest version of Pure (Delivers the best image in VR)  
 
 ## 2. Basic VR setup
-### Oculus / Meta
+Click on your brand of headset to expand the instructions  
+<details>
+  <summary>Oculus / Meta</summary>
+
+Native Oculus implementation (easiest method):  
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
 2. In the Oculus App, Settings > General enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
 3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
   3.1 If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
 
-> [!NOTE]
-> Oculus / Meta headsets can also be used with SteamVR, OpenComposite and Virtual Desktop (Standalone headsets only), Oculus Rift rendering mode should be easiest to set up.  
+Using Virtual Desktop and OpenComposite (Can give better results however costs money):  
+1. Purchase Virtual Desktop on the Oculus / Meta store (do not buy it on steam itself)
+2. Follow the instructions provided in Virtual Desktop to connect your headset to your PC.   
+3. Open the Virtual Desktop Streamer application, and under settings, select VirtualDesktopXR (VDXR) as the OpenXR runtime.
+4. Set up OpenComposite, [instructions here](#to-install-opencomposite)
+5. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
 
-### SteamVR headsets (Vive, Index, Bigscreen beyond)
+Using SteamVR (Generally not recommended):  
+1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
+2. Install and set up SteamVR from Steam  
+3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
+
+</details>
+
+<details>
+  <summary>SteamVR headsets (Vive, Index, Bigscreen beyond)</summary>
+  
 1. Make sure your headset is connected to your PC
-2. Install SteamVR from Steam
+2. Install and set up SteamVR from Steam  
 3. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+</details>
 
-### Windows Mixed Reality headsets
+<details>
+  <summary>Windows Mixed Reality headsets</summary>
+  
 1. Make sure your headset is connected to your PC
-2. Install Windows Mixed Reality from the Microsoft Store
-3. Install SteamVR from Steam
+2. Install and set up Windows Mixed Reality from the Microsoft Store
+3. Install and set up SteamVR from Steam  
 4. Install Windows Mixed Reality for SteamVR from Steam
 5. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+</details>
 
-### Pimax headsets
+<details>
+  <summary>Pimax headsets</summary>
+  
 1. Make sure your headset is connected to your PC
 2. Install PiTool
-3. Install SteamVR from Steam
+3. Install and set up SteamVR from Steam  
 4. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+</details>
 
 > [!TIP]
 > Once you have the correct settings applied for your headset, test it out in singleplayer first before joining a server !
@@ -68,7 +92,7 @@ Quick links:
 If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post  
 
 ## 4. Setting up Pure
-Pure is recommended for VR as it delivers a more realistic and consistent image, also has a lot of adjustability.
+Pure is recommended for VR as it delivers a more realistic and consistent image, also has a lot of adjustability and various post processing filters to change the look of the game.  
 1. Make sure you are on the latest version of CSP
 2. Go to Peter Boese Patreon page and download Pure from there, it costs $1 - [Pure Patreon](https://www.patreon.com/c/peterboese/posts)
 3. There is an installation guide in the Pure post, follow it thoroughly. [Link to the guide here too](https://youtu.be/456BO7vKui0?si=BQ0YIq6q3f7BuZyc)
@@ -269,11 +293,11 @@ OpenComposite can also be used with Virtual Desktop when using it with VDXR, [mo
 > [!WARNING]
 > Pico headsets dont have their own OpenXR runtime, so to bypass SteamVR you would need to use Virtual Desktop with VDXR and OpenComposite.
 
-To install OpenComposite:
+### To install OpenComposite:
 1. Download the opencomposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
 2. Make sure the file is called "openvr_api.dll" and place it in to "steamapps\common\assettocorsa\system\x64", if prompted to overwrite files, press yes.
 3. In Content Manager > Settings > Video set "Rendering Mode" to "OpenVR"
-4. You also need to make sure your headset is using its native OpenXR Runtime and not the SteamVR one
+4. You also need to make sure your headset is using its native OpenXR Runtime (or VDXR for Virtual Desktop) and not the SteamVR one  
 
 > [!IMPORTANT]
 > If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
@@ -307,7 +331,7 @@ Foveated rendering is a method in VR to achieve greater performance by rendering
 > Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.
 
 > [!NOTE]
-> Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia GPUs that are 20 series or newer. 
+> Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia 16xx, 20xx, 30xx and 40xx series GPUs or newer. 
 
 ## 11. Additional Notes
 
