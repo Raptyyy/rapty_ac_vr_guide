@@ -33,20 +33,20 @@ Click on your brand of headset to expand the instructions
 <details>
   <summary>Oculus / Meta</summary>
 
-Native Oculus implementation (easiest method):  
+**Native Oculus implementation (easiest method):**  
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
 2. In the Oculus App, Settings > General enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
 3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
   3.1 If you do wish to use SteamVR then set "Rendering Mode" to "OpenVR" instead, this applies to Virtual Desktop too.
 
-Using Virtual Desktop and OpenComposite (Can give better results however costs money):  
+**Using Virtual Desktop and OpenComposite (Can give better results however costs money):**  
 1. Purchase Virtual Desktop on the Oculus / Meta store (do not buy it on steam itself)
 2. Follow the instructions provided in Virtual Desktop to connect your headset to your PC.   
 3. Open the Virtual Desktop Streamer application, and under settings, select VirtualDesktopXR (VDXR) as the OpenXR runtime.
 4. Set up OpenComposite, [instructions here](#to-install-opencomposite)
 5. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
 
-Using SteamVR (Generally not recommended):  
+**Using SteamVR (Generally not recommended):**  
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
 2. Install and set up SteamVR from Steam  
 3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
