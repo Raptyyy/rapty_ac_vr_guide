@@ -71,6 +71,7 @@ Click on your brand of headset to expand the instructions
 <details>
   <summary>Windows Mixed Reality headsets</summary>
 
+
 **Using OpenComposite (Highly recommended):**  
 1. Make sure your headset is connected to your PC  
 2. Install and set up Windows Mixed Reality from the Microsoft Store
