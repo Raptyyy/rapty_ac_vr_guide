@@ -158,7 +158,7 @@ Make sure to double check the Rendering Mode so that its set correctly for your 
 ## 5.2 CSP Setting Presets
 These presets are simply to be used as a base for your own preference. Test the presets out and adjust as needed.  
 > [!NOTE]
-> Foveated rendering (VRS) is NOT enabled in any of these, set it yourself as needed.
+> Foveated rendering / Nvidia VRS is NOT enabled in any of these, set it yourself as needed.
 
 - High Performance - [Link here](https://acstuff.club/s/MbOb) (This preset has a lot of modules disabled for a little extra performance)  
 - Balanced - [Link here](https://acstuff.club/s/l1xe)  
