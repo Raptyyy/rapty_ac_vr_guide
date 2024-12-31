@@ -321,7 +321,7 @@ Make sure the extension is enabled (Active)
 **Single YEBIS pass** makes post processing slightly less demanding to run, `enable` for performance if needed, can cause certain Pure effects to not work.  
 
 ### Nvidia VRS
-also known as Foveated rendering ([What is Foveated Rendering](#6-what-is-foveated-rendering)) is probably the most important performance tweak for VR, however only works for Nvidia GPUs.  
+also known as Foveated rendering ([What is Foveated Rendering](#6-what-is-foveated-rendering)), only works for Nvidia GPUs.  
 If you want to use Nvidia VRS:  
 - **Nvidia VRS** `enabled`
 - **VRS preset** `Custom`
