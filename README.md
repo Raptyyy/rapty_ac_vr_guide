@@ -1,14 +1,14 @@
 # VR guide for Assetto Corsa and CSP
 
-The purpose of this guide is to help with basic VR setup and cover some of the main settings and features.  
-It also covers usage of OpenComposite and the OpenXR Toolkit  
-This guide is written with Content Manager and Custom Shaders Patch in mind, not intended to work with vanilla Assetto Corsa.
+The purpose of this guide is to help with basic VR setup, installing Custom Shaders Patch, Pure and adjusting your settings for the best experience.  
+It also covers usage of OpenComposite and the OpenXR Toolkit.  
+This guide is written with Content Manager and Custom Shaders Patch in mind, not intended to work with vanilla Assetto Corsa.  
+
+> [!TIP]
+> Most people should only have to read the first 6 chapters (Up to video settings), beyond that is more in depth coverage of various settings.
 
 > [!NOTE]
 > If you have anything useful to add to the guide or see a mistake, feel free to make an issue and I will correct it.
-
-> [!TIP]
-> Most people should only have to read the first 6 chapters (Up to video settings), beyond that is more advanced explanations, not as needed for most users.
 
 ## 0. Table of Contents
 1. [Prerequisites](#1-prerequisites)  
@@ -146,7 +146,8 @@ Pure, PureVR - these come with Pure, PureVR would be my recommendation out of th
 
 ## 5. Video and CSP Presets
 > [!WARNING]
-> Save your current settings as presets in Content Manager !
+> Save your current settings as presets in Content Manager for Video and Custom Shaders Patch !
+
 ## 5.1 Video Presets for VR
 These are some video presets I made if you don't want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
 Make sure to double check the Rendering Mode so that its set correctly for your headset !  
@@ -166,7 +167,7 @@ These presets are simply to be used as a base for your own preference. Test the 
 
 ## 6. What is Foveated Rendering
 Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
-Foveated rendering is the biggest performance increase that you can get in VR so it is highly recommended to take advantage of it.  
+Foveated rendering is the biggest performance increase (GPU load wise) that you can get in VR so it is highly recommended to take advantage of it.  
 
 <img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/980c83fc6ec2016ade1d3e7c172c3838679fc5f9/resources/fov_rend_example.jpg" width="1280">   
 
@@ -319,9 +320,9 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 ### Mode Tweaks VR:
 Make sure the extension is enabled (Active)  
 
-**Single Pass Stereo** Highly recommend to `enable` this, helps a lot with CPU load, can cause certain Pure effects to not work. Might work for AMD GPUs too.  
+**Single Pass Stereo** Highly recommended to `enable`, especially on slower CPUs. It renders both eye images at the same time into one packed Render Texture, meaning that the whole Scene is only rendered once, and CPU processing time is significantly reduced. Can make some Pure shaders not work.  
 
-**Single YEBIS pass** makes post processing slightly less demanding to run, `enable` for performance if needed, can cause certain Pure effects to not work.  
+**Single YEBIS pass** Recommended to `enable` for best performance if needed. Instead of running post-processing individually for each eye, runs it once for both eyes. Can potentially affect glare effects in an undesirable way.  
 
 ### Nvidia VRS
 also known as Foveated rendering ([What is Foveated Rendering](#6-what-is-foveated-rendering)), only works for Nvidia GPUs.  
