@@ -332,11 +332,11 @@ If you want to use Nvidia VRS:
 - **VRS rate** `High performance`, can set to Highest performance if you need every bit of performance but it will be more visible.
 - **VRS detailed area** `Balanced`, set it to `Wide` if you use a Quest 3 or Pico 4 as they will show foveated rendering more clearly.
 
-You can also test using the "VRS preset" presets.
+You can also test using the VRS presets if those work better for you.  
 
-**Corners masking optimization** recommended to keep this one `enabled`, helps with performance but will create a black area around the VR image in the game window / VR mirror  
+**Corners masking optimization** Recommended to keep this one `enabled`. Also known as [Hidden Area Mesh](https://forum.il2sturmovik.com/topic/81723-enable-the-use-of-ham-hidden-area-mesh-in-openvr/), it allows your GPU to not waste time rendering parts of the image that you wouldnt be able to see because of how the lenses work.  
 
-**Custom VR HUD rendering** recommended to keep this `enabled` as it makes the HUD work better in VR  
+**Custom VR HUD rendering** Recommended to keep this `enabled` as it makes the HUD work better in VR  
 
 ## 9. OpenComposite and OpenXR Toolkit
 ### OpenComposite
@@ -344,7 +344,7 @@ Allows you to play SteamVR games without actually needing SteamVR, it is highly 
 On non native SteamVR headsets (Quest, Pimax, WMR) SteamVR simply acts as a middle layer which increases resource usage while bringing no real benefit to your VR experience.  
 OpenComposite can also be used with Virtual Desktop when using it with VDXR, [more info here](https://github.com/mbucchia/VirtualDesktop-OpenXR/wiki)  
 > [!IMPORTANT]
-> Using OpenComposite with native SteamVR headsets wont really bring much benefit since they will require SteamVR either with OpenVR or OpenXR.
+> Using OpenComposite with native SteamVR headsets (Vide, Index, Beyond) wont allow you to bypass SteamVR as it is required no matter what. However it would give you access to the OpenXR Toolkit if needed.  
 
 > [!WARNING]
 > Pico standalone headsets dont have their own OpenXR runtime, so to bypass SteamVR you would need to use Virtual Desktop with VDXR and OpenComposite.
