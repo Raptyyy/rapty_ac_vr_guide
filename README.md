@@ -126,7 +126,8 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 2. Go to Settings > Custom Shader Patch > About & Updates and verify that you are on the latest version which should be at the top of the list on the right side.  
   2.1 I don't recommend using the "recommended" version as it is quite old by now and wont work in some servers
 
-If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post  
+> [!NOTE]
+> If you are using a preview version of CSP from Patreon then install it manually or through the quick install link in the Patreon post  
 
 ## 4. Setting up Pure
 Pure is recommended for VR as it delivers a more realistic and consistent image, also has a lot of adjustability and various post processing filters to change the look of the game.  
