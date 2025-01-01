@@ -187,7 +187,7 @@ Ways to enable / use Foveated rendering (Use only one of these methods):
 ## 7. Video Settings
 This covers all the settings in Content Manager > Settings > Video  
 > [!TIP]
-> Note that in Content Manager most settings have an ![image](https://github.com/user-attachments/assets/9f386396-4427-4b7a-b75b-127258967f94) icon next to them that will show what each setting does and the performance impact  
+> Note that in Content Manager > Video most settings have an ![image](https://github.com/user-attachments/assets/9f386396-4427-4b7a-b75b-127258967f94) icon next to them that will show what each setting does and the performance impact.  
 
 ### Resolution and FPS
 **Rendering Mode** should already be set depending on your headset as shown above.  
