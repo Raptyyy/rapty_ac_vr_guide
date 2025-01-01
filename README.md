@@ -359,7 +359,7 @@ If you want to use Nvidia VRS:
 
 You can also test using the VRS presets if those work better for you.  
 
-**Corners masking optimization** Recommended to keep this one `enabled`. Also known as [Hidden Area Mesh](https://forum.il2sturmovik.com/topic/81723-enable-the-use-of-ham-hidden-area-mesh-in-openvr/), it allows your GPU to not waste time rendering parts of the image that you wouldnt be able to see because of how the lenses work.  
+**Corners masking optimization** Recommended to keep this one `enabled`. Also known as [Hidden Area Mesh](https://forum.il2sturmovik.com/topic/81723-enable-the-use-of-ham-hidden-area-mesh-in-openvr/), it allows your GPU to not waste time rendering parts of the image that you wouldnt be able to see because of how the lenses work. Disable this if the black shape in the VR mirror (game window) is not wanted.    
 
 **Custom VR HUD rendering** Recommended to keep this `enabled` as it makes the HUD work better in VR  
 
