@@ -11,7 +11,7 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 > If you have anything useful to add to the guide or see a mistake, feel free to make an issue and I will correct it.
 
 > [!NOTE]
-> For further help or if you want to report a game issue, join the Custom Shaders Patch discord and use the `virtual-reality-talk` channel
+> For further help or if you want to report a game issue, join the Custom Shaders Patch discord and use the `virtual-reality-talk` channel  
 > [![](https://dcbadge.limes.pink/api/server/nM4Xkrt)](https://discord.gg/nM4Xkrt)
 
 
