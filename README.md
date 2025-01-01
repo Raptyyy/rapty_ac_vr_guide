@@ -179,7 +179,7 @@ Ways to enable / use Foveated rendering (Use only one of these methods):
 - VRPerfKit also has Foveated Rendering, [explained further here](#10-vrperfkit) (Only recommended for SteamVR users who want more adjustability compared to Nvidia VRS)  
 
 > [!WARNING]
-> Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center part of the Foveated image or to just not use Foveated rendering at all.
+> Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center ring or just not use Foveated rendering at all.
 
 > [!NOTE]
 > Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia 16xx, 20xx, 30xx and 40xx series GPUs or newer. 
