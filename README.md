@@ -10,6 +10,9 @@ This guide is written with Content Manager and Custom Shaders Patch in mind, not
 > [!NOTE]
 > If you have anything useful to add to the guide or see a mistake, feel free to make an issue and I will correct it.
 
+> [!NOTE]
+> For further help or if you want to report a game issue, join the [Custom Shaders Patch discord](https://discord.gg/nM4Xkrt) and use the virtual-reality-talk channel 
+
 ## 0. Table of Contents
 1. [Prerequisites](#1-prerequisites)  
 2. [Basic VR Setup](#2-basic-vr-setup)  
