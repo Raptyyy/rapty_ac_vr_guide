@@ -120,6 +120,30 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 > [!TIP]
 > Once you have the correct settings applied for your headset, test it out in singleplayer first before joining a server !
 
+## 2.1. VR Resolution
+An important thing to set is the resolution of your VR headset. Unlike monitors, VR headsets dont have a "native" resolution because of how the lenses work. Naturally a higher resolution means a sharper and clearer image, but at the cost of performance.  
+
+- **Oculus / Meta** headsets you can adjust it in the Oculus app (Settings > Graphics Preference > Render Resolution) Or in the [Oculus Debug Tool here](https://smartglasseshub.com/oculus-debug-tool/) with the Pixels Per Display Pixel Override setting.  
+- **Steam VR** headsets you can adjust it in SteamVR settings (Video > Resolution Per Eye).  
+- **Windows Mixed Reality** headsets you can adjust it in OpenXR Tools for Windows Mixed Reality (Custom Render Scale).  
+- **Pimax** headsets you can adjust it in the Pimax Play software (Render Quality).  
+
+Any headset using OpenComposite and the OpenXR Toolkit can also adjust resolution through the OpenXR Toolkit.  
+
+> [!NOTE]
+> The Resolution in Content Manager > Settings > Video does NOT affect VR image quality.  
+
+## 2.2. VR Reprojection
+In basic sense, reprojection will reduce the load on your system by halving the amount of rendered frames in the game, and extrapolating the other frames to keep the experience smooth. As an example a headset that is set to run at 90Hz would require 90 fps, but with reprojection it would only require 45fps.  
+However reprojection can potentially cause various issues like image artifacts, latency / input delay and stuttering. Generally most VR users choose to disable Reprojection.  
+
+- **Oculus / Meta** headsets you can disable it in the [Oculus Debug Tool here](https://smartglasseshub.com/oculus-debug-tool/) with the PC Asynchronous Spacewarp setting.  
+- **Steam VR** headsets you can disable it in SteamVR settings (Video > Motion Smoothing).  
+- **Windows Mixed Reality** headsets you can disable it in OpenXR Tools for Windows Mixed Reality (Motion Reprojection Rate).  
+- **Pimax** headsets you can disable it in the Pimax Play software (Smart Smoothing).  
+
+Any headset using OpenComposite and the OpenXR Toolkit can also adjust Reprojection through the OpenXR Toolkit.  
+
 ## 3. Setting up Custom Shaders Patch (CSP)
 1. In Content Manager go to Settings > Custom Shader Patch  
   1.1 If you are prompted to install Custom Shaders Patch, press install  
