@@ -278,9 +278,9 @@ I would recommend not messing with these settings as they don't really have any 
 I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR performance.  
 
 ### General Patch Settings
-**Audio > Decompress Samples** recommended to have it `enabled` if you have more than 16GB of RAM, helps with CPU load.  
+**Audio > Decompress Samples** recommended to have it `enabled`. Reduces CPU overhead for higher memory usage.  
 
-**New KN5 loader** recommended to have it `enabled`, helps with memory usage  
+**New KN5 loader** recommended to have it `enabled`, reduces RAM and VRAM usage.  
 
 CPU optimizations:
 - **Flatten nodes** keep it `enabled`  
@@ -290,17 +290,17 @@ CPU optimizations:
 GPU optimizations: 
 - **Optimize meshes some more** helps with GPU load, have it `enabled`  
 - "**Deduplicate meshes**" helps with VRAM, have it `enabled`  
-- "**Upgrade AC textures**" will make certain textures more efficient VRAM wise, recommended to have it `enabled`. Don't enable this if you have a low amount of free disk space.
+- "**Upgrade AC textures**" can improve loading times and reduce VRAM usage, recommended to have it `enabled`. Can make the game folder size bigger.  
 
 ### Extra FX
-Extra FX doesnt work in VR so this will have no effect, keep it `disabled` if you don't ever use Extra FX.
+Extra FX doesnt work in VR so this will have no effect, keep it `disabled` if you don't ever use Extra FX.  
 
 ### GUI
 **New driver tags** recommended to have it `enabled` so you can see driver names in VR. Its not a performance tweak but a very useful thing to have.  
 **Font Scale** Set this to `125%` or higher if you struggle reading the names.  
 
 ### Graphics Adjustments
-**AMD FidelityFX SuperResolution** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs.  
+**AMD FidelityFX SuperResolution** also known as "FSR" is an upscaler that can help with performance by rendering the game at a lower resolution and then upscaling the image. Should only be needed for lower end PCs. Can also be used through the OpenXR Toolkit or VRPerfkit instead.    
 
 LOD settings:
 - **Force low-res drivers for other cars in first person view** have it `enabled` for performance
@@ -318,7 +318,7 @@ LOD settings:
 ### Lighting FX
 **Cars casting lights** set this to a lower amount like `5` for better performance in dense lobbies, lights are expensive performance wise.
 
-**Disable mirroring in first person view**"helps with performance a bit, have it `enabled`  
+**Disable mirroring in first person view** helps with performance a bit, have it `enabled`  
 
 **Enable lighting in reflections** `disabled` for a performance boost  
 
