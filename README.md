@@ -187,7 +187,7 @@ Ways to enable / use Foveated rendering (Use only one of these methods):
 ## 7. Video Settings
 This covers all the settings in Content Manager > Settings > Video  
 > [!TIP]
-> Note that in Content Manager most settings have a green "i" icon next to them that will show what each setting does and the performance impact  
+> Note that in Content Manager most settings have an ![image](https://github.com/user-attachments/assets/9f386396-4427-4b7a-b75b-127258967f94) icon next to them that will show what each setting does and the performance impact  
 
 ### Resolution and FPS
 **Rendering Mode** should already be set depending on your headset as shown above.  
@@ -306,15 +306,15 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 ### Smart Mirror
 **Custom render distance** `enabled` and set the distance to 400 meters if you use High Quality mirrors in video settings, helps with performance.
 
-**Real mirrors** highly recommended in VR, makes the mirrors change perspective based on your head movement also lets you adjust mirror positioning through the "Mirrors" app in-game
+**Real mirrors** highly recommended in VR, makes the mirrors change perspective based on your head movement also lets you adjust mirror positioning through the "Car Mirrors" app in-game (Install it from the "App Shelf" app in-game first)  
 - **Active** `enabled`
-- **Alter FOV** set based on your preference, I have it `disabled`
-- **Refresh rate per frame** set to` Update single reflection per frame` for best performance, can look a little laggy on lower refresh rate headsets, use higher if needed.
+- **Alter FOV** This will change the Field of View of the mirror depending how close you are to it. Set based on your preference, I have it `disabled`
+- **Refresh rate per frame** set to `Update single reflection per frame` for best performance, can look a little laggy on lower refresh rate headsets, use higher if needed.
 
 ### Weather FX
-**Weather style** this should be set to either `Pure Gamma` or `Pure LCS`, Gamma is better performance wise as of now but LCS will produce a more natural image (Can have various issues).  
+**Weather style** this should be set to either `Pure Gamma` or `Pure LCS`. `Pure Gamma` is the recommended option as of now and has better performance, `Pure LCS` is able to produce a better looking image but could cause some issues too.  
 
-**Replace YEBIS with lightweight alternative** `enabled`, helps a lot to reduce the performance impact of post-processing, does not work with some pp filters like C13.  
+**Replace YEBIS with lightweight alternative** is a more basic post-processing implementation which uses less CPU and GPU resources, for performance I would recommend to `enable` it. Does not work with some pp filters like C13.  
 
 **Automatically guess white reference point** This can make the UI very bright when using Pure, `disable` it.  
 
