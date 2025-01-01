@@ -24,8 +24,7 @@ If you have anything useful to add to the guide or see a mistake, feel free to m
 7. [Video Settings](#7-video-settings)  
 8. [Custom Shaders Patch settings](#8-custom-shaders-patch-settings)  
 9. [OpenComposite and OpenXR Toolkit](#9-opencomposite-and-openxr-toolkit)  
-10. [VRPerfKit](#10-vrperfkit)  
-11. [Additional Notes](#11-additional-notes)  
+10. [Additional Notes](#10-additional-notes)  
 
 Quick links: 
 - [Settings Presets](#5-video-and-csp-presets)
@@ -400,16 +399,7 @@ Set these settings in game through the toolkit menu (CTRL + F2 by default to ope
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
-## 10. VRPerfKit
-VR Perf Kit is a utility that has some of the same feature as the OpenXR Toolkit (Upscaling and Foveated rendering) but does not require the use of OpenXR (OpenComposite).  
-This is useful for people who use native SteamVR headsets (Vive,Index,Bigscreen) and want some of the same functionality.  
-> [!NOTE]
-> Since foveated rendering is built into CSP itself I don't recommend this utility as much nowadays. its only beneficial to users who want to tweak things further.
-
-[Link to VRPerfkit](https://github.com/fholger/vrperfkit), The installation and usage are explained in the download link.  
-There is another version of the VRPerfkit called VRPerfKit_RSF with more features which you can [find here](https://github.com/RavenSystem/VRPerfKit_RSF), However its also more complicated to use so would only recommend this to advanced users.  
-
-## 11. Additional Notes
+## 10. Additional Notes
 
 When it comes to VR performance, the most important thing is having a consistent framerate. You want to utilize your GPU as much as possible by increasing the headsets resolution or graphical settings, but also leaving enough headroom to avoid any fluctuation in performance. You can use things like SteamVR performance graph, OpenXR advanced overlay or programs like GPU-Z to monitor GPU and CPU usage and adjust settings as needed.  
 
