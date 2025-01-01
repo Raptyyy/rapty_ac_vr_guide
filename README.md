@@ -123,7 +123,7 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 ## 2.1. VR Resolution
 An important thing to set is the resolution of your VR headset. Unlike monitors, VR headsets dont have a "native" resolution because of how the lenses work. Naturally a higher resolution means a sharper and clearer image, but at the cost of performance.  
 
-- **Oculus / Meta** headsets you can adjust it in the Oculus app (Settings > Graphics Preference > Render Resolution) Or in the [Oculus Debug Tool here](https://smartglasseshub.com/oculus-debug-tool/) with the Pixels Per Display Pixel Override setting.  
+- **Oculus / Meta** headsets you can adjust it in the Oculus app (Settings > Graphics Preference > Render Resolution) Or in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) with the Pixels Per Display Pixel Override setting.  
 - **Steam VR** headsets you can adjust it in SteamVR settings (Video > Resolution Per Eye).  
 - **Windows Mixed Reality** headsets you can adjust it in OpenXR Tools for Windows Mixed Reality (Custom Render Scale).  
 - **Pimax** headsets you can adjust it in the Pimax Play software (Render Quality).  
