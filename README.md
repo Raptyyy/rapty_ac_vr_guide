@@ -388,6 +388,10 @@ When it comes to VR performance, the most important thing is having a consistent
 If your framerate is stuck to a specific value like 30, 45 or 60 fps, its likely that you have reprojection enabled. Reprojection halves your framerate and inserts fake frames to reduce the load on your system. You can disable this behaviour if needed.  
 On Oculus / Meta headsets it should be called ASW or Asynchronous Spacewarp, on SteamVR its motion smoothing, on WMR you should be able to adjust it in the OpenXR Toolkit, Pimax has it in Pimax Play.  
 
+Setting Anisotropic Filtering in the Nvidia Control Panel can potentially improve texture quality. Set it as shown in the image below.    
+<img src="https://github.com/user-attachments/assets/58802765-659f-497d-81f7-e9fd0489795f" width="600">  
+
+
 > [!WARNING]
 > On some systems using HAGS (Hardware accelerated GPU Scheduling) can cause performance issues, you can change it in Windows Settings > System > Display > Graphics settings or just search for "GPU" in the start search.  
 
