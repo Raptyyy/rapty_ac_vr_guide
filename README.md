@@ -137,7 +137,7 @@ Any headset using OpenComposite and the OpenXR Toolkit can also adjust resolutio
 In basic sense, reprojection will reduce the load on your system by halving the amount of rendered frames in the game, and extrapolating the other frames to keep the experience smooth. As an example a headset that is set to run at 90Hz would require 90 fps, but with reprojection it would only require 45fps.  
 However reprojection can potentially cause various issues like image artifacts, latency / input delay and stuttering. Generally most VR users choose to disable Reprojection.  
 
-- **Oculus / Meta** headsets you can disable it in the [Oculus Debug Tool here](https://smartglasseshub.com/oculus-debug-tool/) with the PC Asynchronous Spacewarp setting.  
+- **Oculus / Meta** headsets you can disable it in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) with the PC Asynchronous Spacewarp setting.  
 - **Steam VR** headsets you can disable it in SteamVR settings (Video > Motion Smoothing).  
 - **Windows Mixed Reality** headsets you can disable it in OpenXR Tools for Windows Mixed Reality (Motion Reprojection Rate).  
 - **Pimax** headsets you can disable it in the Pimax Play software (Smart Smoothing).  
