@@ -416,8 +416,22 @@ When it comes to VR performance, the most important thing is having a consistent
 If your framerate is stuck to a specific value like 30, 45 or 60 fps, its likely that you have reprojection enabled. Reprojection halves your framerate and inserts fake frames to reduce the load on your system. You can disable this behaviour if needed.  
 On Oculus / Meta headsets it should be called ASW or Asynchronous Spacewarp, on SteamVR its motion smoothing, on WMR you should be able to adjust it in the OpenXR Toolkit, Pimax has it in Pimax Play.  
 
+### Nvidia Control Panel tweaks
+<details>
+  <summary>Anisotropic Filtering</summary>
+  
 Setting Anisotropic Filtering in the Nvidia Control Panel can potentially improve texture quality. Set it as shown in the image below.    
 <img src="https://github.com/user-attachments/assets/58802765-659f-497d-81f7-e9fd0489795f" width="600">  
+</details>
+
+<details>
+  <summary>MFAA (Multi-Frame Anti-Aliasing)</summary>
+  
+[MFAA](https://www.nvidia.com/en-us/geforce/news/multi-frame-sampled-anti-aliasing-delivers-better-performance-and-superior-image-quality/) is an anti-aliasing technique which by alternating AA sample patterns both temporally and spatially can improve the quality of MSAA.  
+4xMFAA has the performance cost of 2xMSAA, with anti-aliasing properties equivalent to 4xMSAA.  
+Requires MSAA to bet set to atleast 2x in Content Manager > Settings > MSAA  
+<img src="https://github.com/user-attachments/assets/ea28aeec-ca77-4f4c-b614-32174566e79c" width="600"> 
+</details>
 
 
 > [!WARNING]
