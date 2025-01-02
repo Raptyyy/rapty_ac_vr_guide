@@ -10,7 +10,7 @@ If you have anything useful to add to the guide or see a mistake, feel free to m
 
 > [!NOTE]
 > For further help or if you want to report a game issue, join the Custom Shaders Patch discord and use the `virtual-reality-talk` channel  
-> [![](https://dcbadge.limes.pink/api/server/nM4Xkrt)](https://discord.gg/nM4Xkrt)
+> [![](https://dcbadge.limes.pink/api/server/zN4XtmZ4Jf))](https://discord.gg/zN4XtmZ4Jf)
 
 
 
