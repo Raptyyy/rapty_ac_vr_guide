@@ -46,14 +46,14 @@ Click on your brand of headset to expand the instructions
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
   1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.  
 2. In the Oculus App, Settings > General enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
-3. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
+3. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
 
 **Using Virtual Desktop and OpenComposite (Can give better results however costs money):**  
 1. Purchase Virtual Desktop on the Oculus / Meta store (do not buy it on steam itself)
 2. Follow the instructions provided in Virtual Desktop to connect your headset to your PC (Quest / Air Link is not required).   
 3. Open the Virtual Desktop Streamer application, and under settings, select VirtualDesktopXR (VDXR) as the OpenXR runtime.
 4. Set up OpenComposite, [instructions here](#to-install-opencomposite)
-5. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"  
+5. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "OpenVR"  
 
 Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 
@@ -61,7 +61,7 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)
   1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.  
 3. Install and set up SteamVR from Steam  
-4. In content manager go to Settings > Assetto Corsa > Video and set "Rendering Mode" to "OpenVR"
+4. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "OpenVR"
 
 ### Oculus / Meta additional notes and troubleshooting  
 
@@ -76,7 +76,7 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
   
 1. Make sure your headset is connected to your PC
 2. Install and set up SteamVR from Steam  
-3. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+3. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
 </details>
 
 <details>
@@ -89,7 +89,7 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 3. Install and set up OpenXR Tools for Windows Mixed Reality from the Microsoft Store  
   3.1. If you see a button that says "Set as active runtime" - press it.  
 5. Set up OpenComposite, [instructions here](#to-install-opencomposite)  
-6. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
+6. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"  
 
 Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 
@@ -98,7 +98,7 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 2. Install and set up Windows Mixed Reality from the Microsoft Store  
 3. Install and set up SteamVR from Steam  
 4. Install Windows Mixed Reality for SteamVR from Steam  
-5. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
+5. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"  
 </details>
 
 <details>
@@ -109,7 +109,7 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 2. Install and set up Pimax Play, [link here](https://pimax.com/pages/downloads-manuals)  
 3. Set the OpenXR Runtime to Pimax OpenXR in Pimax Play, [instructions here](https://pimax.com/blogs/blogs/how-to-use-pimax-openxr)  
 5. Set up OpenComposite, [instructions here](#to-install-opencomposite)  
-6. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"  
+6. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"  
 
 Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 
@@ -117,14 +117,15 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 1. Make sure your headset is connected to your PC
 2. Install and set up Pimax Play, [Link here](https://pimax.com/pages/downloads-manuals)
 3. Install and set up SteamVR from Steam  
-4. In Content Manager go to Settings > Assetto Corsa > Video and change "Rendering Mode" to "OpenVR"
+4. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
 </details>
 
 > [!TIP]
 > Once you have the correct settings applied for your headset, test it out in singleplayer first before joining a server !
 
 ## 2.1. VR Resolution
-An important thing to set is the resolution of your VR headset. Unlike monitors, VR headsets dont have a "native" resolution because of how the lenses work. Naturally a higher resolution means a sharper and clearer image, but at the cost of performance.  
+Unlike monitors, VR headsets dont have a "native" resolution because of barrel distortion in the lenses.  
+Naturally a higher resolution means a sharper and clearer image, but at the cost of performance.  
 
 - **Oculus / Meta** headsets you can adjust it in the Oculus app (Settings > Graphics Preference > Render Resolution) Or in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) with the Pixels Per Display Pixel Override setting.  
 - **Steam VR** headsets you can adjust it in SteamVR settings (Video > Resolution Per Eye).  
@@ -137,8 +138,9 @@ Any headset using OpenComposite and the OpenXR Toolkit can also adjust resolutio
 > The Resolution in Content Manager > Settings > Video does NOT affect VR image quality.  
 
 ## 2.2. VR Reprojection
-In basic sense, reprojection will reduce the load on your system by halving the amount of rendered frames in the game, and extrapolating the other frames to keep the experience smooth. As an example a headset that is set to run at 90Hz would require 90 fps, but with reprojection it would only require 45fps.  
-However reprojection can potentially cause various issues like image artifacts, latency / input delay and stuttering. Generally most VR users choose to disable Reprojection.  
+Reprojection reduces system load by halving the needed amount of rendered frames and extrapolating the rest to maintain a smooth experience.  
+For example - a 90Hz headset would need only 45fps with reprojection instead of 90fps.  
+However, it may cause artifacts, input delay, or stuttering. 
 
 - **Oculus / Meta** headsets you can disable it in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) with the PC Asynchronous Spacewarp setting.  
 - **Steam VR** headsets you can disable it in SteamVR settings (Video > Motion Smoothing).  
