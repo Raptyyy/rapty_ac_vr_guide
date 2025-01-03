@@ -228,15 +228,15 @@ This covers all the settings in Content Manager > Settings > Video
 **Limit framerate** is not needed in VR as the headset will limit fps as needed by itself, keep it `disabled`.  
 
 ### Quality
-**MSAA** is an Anti-Aliasing technique which helps a lot with jagged edges / pixelation or shimmering especially into the distance. Highly recommended to keep it enabled in VR, either `2x` or `4x`. `8x` will have a major impact on performance and is generally not worth using.  
+**MSAA** (Multisample anti-aliasing) is an Anti-Aliasing technique which helps with jagged edges, pixelation or shimmering especially into the distance. Highly recommended to keep it enabled in VR, either `2x` or `4x`. `8x` will have a major impact on performance and is generally not worth using.  
 
-**Anisotropic Filtering** helps with texture clarity into the distance, it has a very low performance impact so recommended to just keep it at `16x`.  
+**Anisotropic Filtering** helps with texture clarity into the distance, it has a very low performance impact so it's recommended to just keep it at `16x`.  
 
-**World details** will affect object amount on tracks (if they support it), set it as needed. Can also be adjust in-game using the "View & Video Settings" app.  
+**World details** will affect object count on tracks (if they support it), set it as needed. Can also be adjust in-game using the "View & Video Settings" app.  
 
 **Shadows resolution** affects how sharp the shadows will look. Higher resolution will make shadows look better but decrease performance. I would recommended using `1024x1024` and increase if performance isnt an issue.  
 
-**Smoke generation** Simply controls the smoke quantity, adjust as needed, but I would recommend using CSP smoke instead (Custom Shaders Patch > Particles FX > New smoke and dust)  
+**Smoke generation** simply controls the smoke quantity, adjust as needed, but I would recommend using CSP smoke instead (Custom Shaders Patch > Particles FX > New smoke and dust)  
 
 ### Reflections
 **Reflection Resolution** simply adjusts how sharp / clear the reflections will look, `512x512` is a good base value to start with, can increase if needed.  
@@ -272,7 +272,7 @@ This covers all the settings in Content Manager > Settings > Video
 ### Oculus (only affects Oculus / Meta headsets)
 **Pixels per display** is same as resolution multiplier in the oculus app or oculus pixels per display pixel override in oculus debug app, `set as needed`  
 
-**Mirror texture** enables the game window to show your VR view, recommended to `enable` it  
+**Mirror texture** enables the game window to show your VR view, recommended to have it `enabled`  
 
 ### System
 I would recommend not messing with these settings as they don't really have any meaningful impact and can cause issues.
@@ -281,7 +281,7 @@ I would recommend not messing with these settings as they don't really have any 
 I will not cover every setting in CSP (that would be a lot to cover), but only the ones that matter for VR performance.  
 
 ### General Patch Settings
-**Audio > Decompress Samples** recommended to have it `enabled`. Reduces CPU overhead for higher memory usage.  
+**Audio > Decompress Samples** recommended to have it `enabled`. Reduces CPU overhead for higher memory (RAM) usage.  
 
 **New KN5 loader** recommended to have it `enabled`, reduces RAM and VRAM usage.  
 
