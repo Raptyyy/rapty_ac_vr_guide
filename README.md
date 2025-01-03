@@ -205,10 +205,10 @@ Ways to enable / use Foveated rendering (Use only one of these methods):
 - For Pimax users you can enable Foveated Rendering in Pimax Play (More convenient but less options compared to the OpenXR Toolkit)  
 - VRPerfKit also has Foveated Rendering, [explained further here](#10-vrperfkit) (Only recommended for SteamVR users who want more adjustability compared to Nvidia VRS)  
 
-> [!WARNING]
+> [!NOTE]
 > Foveated rendering might be undesirable on headsets that use pancake lenses with large sweetspots such as Quest 3 or Pico 4, on such headsets it is recommended to use a very large center ring or just not use Foveated rendering at all.
 
-> [!NOTE]
+> [!WARNING]
 > Note that since Assetto Corsa is a DirectX 11 game, Foveated Rendering works ONLY on Nvidia 16xx, 20xx, 30xx and 40xx series GPUs or newer. 
 
 ## 7. Video Settings
