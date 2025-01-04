@@ -395,7 +395,7 @@ OpenComposite can also be used with Virtual Desktop when using it with VDXR, [mo
 
 ### OpenXR Toolkit
 OpenComposite also lets you use the OpenXR Toolkit which brings [additional functionality and tweaks](https://mbucchia.github.io/OpenXR-Toolkit/features.html).  
-The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more.  
+The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering and more.  
 The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/#downloads)  
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.   
 <img src="https://github.com/user-attachments/assets/6b1f4817-cae9-4907-a9fa-5c9aff2a0b05" width="300">  
