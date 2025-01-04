@@ -138,14 +138,14 @@ Any headset using OpenComposite and the OpenXR Toolkit can also adjust resolutio
 > The Resolution in Content Manager > Settings > Video does NOT affect VR image quality.  
 
 ## 2.2. VR Reprojection
-Reprojection reduces system load by halving the needed amount of rendered frames and extrapolating the rest to maintain a smooth experience.  
+Reprojection reduces system load by halving the needed amount of rendered frames and [extrapolating](https://cdn.mos.cms.futurecdn.net/wwXXdLEWrPADG7yLtC48cP-970-80.png) the rest to maintain a smooth experience.  
 For example - a 90Hz headset would need only 45fps with reprojection instead of 90fps.  
 However, it may cause artifacts, input delay, or stuttering. 
 
-- **Oculus / Meta** headsets you can disable it in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) with the PC Asynchronous Spacewarp setting.  
-- **Steam VR** headsets you can disable it in SteamVR settings (Video > Motion Smoothing).  
-- **Windows Mixed Reality** headsets you can disable it in OpenXR Tools for Windows Mixed Reality (Motion Reprojection Rate).  
-- **Pimax** headsets you can disable it in the Pimax Play software (Smart Smoothing).  
+- **Oculus / Meta** headsets you can set it in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) with the PC Asynchronous Spacewarp setting.  
+- **Steam VR** headsets you can set it in SteamVR settings (Video > Motion Smoothing).  
+- **Windows Mixed Reality** headsets you can set it in OpenXR Tools for Windows Mixed Reality (Motion Reprojection Rate).  
+- **Pimax** headsets you can set it in the Pimax Play software (Smart Smoothing).  
 
 Any headset using OpenComposite and the OpenXR Toolkit can also adjust Reprojection through the OpenXR Toolkit.  
 
