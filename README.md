@@ -402,6 +402,7 @@ Set these settings in game through the toolkit menu (CTRL + F2 by default to ope
 - Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
 - Foveated rendering set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further.  
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
+
 There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
 ## 10. Additional Notes
