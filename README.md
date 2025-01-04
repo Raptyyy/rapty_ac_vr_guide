@@ -180,7 +180,7 @@ Pure, PureVR - these come with Pure, PureVR would be my recommendation out of th
 
 ## 5.1 Video Presets for VR
 These are some video presets I made if you don't want to read through the settings below, try each one out and see what works best. Also adjust to your needs.  
-Make sure to double check the Rendering Mode so that its set correctly for your headset !  
+Make sure to double check the <ins>Rendering Mode</ins> so that its set correctly for your headset !  
 
 - High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)  
 - Balanced: [Link here](https://acstuff.club/s/oFw)
