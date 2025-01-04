@@ -382,10 +382,13 @@ OpenComposite can also be used with Virtual Desktop when using it with VDXR, [mo
 > Pico standalone headsets dont have their own OpenXR runtime, so to bypass SteamVR you would need to use Virtual Desktop with VDXR and OpenComposite.
 
 ### To install OpenComposite:
-1. Download the OpenComposite dll file either from [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll) or from the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)
-2. Make sure the file is called "openvr_api.dll" (rename it if needed) and place it in to "steamapps\common\assettocorsa\system\x64", overwrite files if prompted to.
-3. In Content Manager > Settings > Video set "Rendering Mode" to "OpenVR"
-4. You also need to make sure your headset is using its native OpenXR Runtime (or VDXR for Virtual Desktop) and not the SteamVR one  
+1. Download the OpenComposite dll from one of the links  
+  1.1. From [this repository](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll)  
+  1.2. From the [OpenComposite mirror](https://opencomposite.znix.xyz/builds/) (Select the first result and download the Platform: x64	x64/openvr_api.dll file)  
+2. Make sure the file is called "openvr_api.dll" (rename it if needed)
+3. Place the file to <ins>"steamapps\common\assettocorsa\system\x64"</ins>, overwrite files if prompted to.
+4. In <ins>Content Manager > Settings > Video</ins> set "Rendering Mode" to "OpenVR"
+5. You also need to make sure your headset is using its native OpenXR Runtime (or VDXR for Virtual Desktop) and not the SteamVR one  
 
 > [!IMPORTANT]
 > If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
