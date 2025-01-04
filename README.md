@@ -394,8 +394,9 @@ OpenComposite can also be used with Virtual Desktop when using it with VDXR, [mo
 > If you encounter any issues using OpenComposite, I have the [original dll file uploaded here](https://github.com/Raptyyy/rapty_ac_vr_guide/raw/refs/heads/main/resources/openvr_api.dll.og), rename it to "openvr_api.dll", put it in the same location as the opencomposite dll and overwrite, this will remove opencomposite.  
 
 ### OpenXR Toolkit
-OpenComposite also lets you use the OpenXR Toolkit which brings additional functionality and tweaks.  
-The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more. The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/#downloads)  
+OpenComposite also lets you use the OpenXR Toolkit which brings [additional functionality and tweaks](https://mbucchia.github.io/OpenXR-Toolkit/features.html).  
+The toolkit allows you to use things like Upscaling (NIS,FSR,CAS), Foveated rendering (Like VRS but adjustable in-game and has more settings) and more.  
+The toolkit [can be downloaded here](https://mbucchia.github.io/OpenXR-Toolkit/#downloads)  
 If you have OpenComposite set up correctly and the Toolkit installed, it should pop up by itself in game. I would recommend changing the default hotkeys from F keys to arrow keys for convenience in the OpenXR Toolkit Companion app in windows.   
 <img src="https://github.com/user-attachments/assets/6b1f4817-cae9-4907-a9fa-5c9aff2a0b05" width="300">  
 
@@ -405,8 +406,6 @@ Set these settings in game through the toolkit menu (CTRL + F2 by default to ope
 - Upscaling set to `FSR` if you need more performance or set to `CAS` to improve image quality by sharpening the image, strength of `80% to 100%` should work best.
 - Foveated rendering set to `Preset - Quality - Balanced`, this will be a good starting point, adjust as needed. `Custom` will allow you to tweak things further.  
 - System > FOV allows you to change the size of the FOV (Field of View). This has the benefit of increasing image quality at the expense of reduced FOV, I personally use `94%` on my Revern G2 V1. Might not work well with every headset.  
-
-There is additional functionality in the toolkit which [you can see here](https://mbucchia.github.io/OpenXR-Toolkit/features.html)
 
 ## 10. Additional Notes
 
