@@ -411,6 +411,8 @@ Set these settings in game through the toolkit menu (CTRL + F2 by default to ope
 
 When it comes to VR performance, the most important thing is having a consistent framerate. You want to utilize your GPU as much as possible by increasing the headsets resolution or graphical settings, but also leaving enough headroom to avoid any fluctuation in framerate. You can use things like Render Stats app in-game, SteamVR performance graph, OpenXR advanced overlay or programs like GPU-Z to monitor GPU and CPU usage and adjust settings as needed.  
 
+There is another guide written by CSOCSO which has some more in depth details for Virtual Desktop and Pimax users. You can [find it here](https://docs.google.com/document/d/1q-taJt5q9oKWPuCB63rbAC6ZzlZMxqjworgpc10ETDE/edit?tab=t.0).  
+
 ### Nvidia Control Panel tweaks
 <details>
   <summary>Anisotropic Filtering</summary>
