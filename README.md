@@ -135,7 +135,7 @@ It is important to set the resolution high enough to have a clear image, but als
 Any headset using OpenComposite and the OpenXR Toolkit can also adjust resolution through the OpenXR Toolkit.  
 
 > [!NOTE]
-> The Resolution in Content Manager > Settings > Video does NOT affect VR image quality.  
+> The Resolution in Content Manager <ins>Settings > Assetto Corsa > Video</ins> does NOT affect VR image quality.  
 
 ## 2.2. VR Reprojection
 Reprojection reduces system load by halving the needed amount of rendered frames and [extrapolating](https://cdn.mos.cms.futurecdn.net/wwXXdLEWrPADG7yLtC48cP-970-80.png) the rest to maintain a smooth experience.  
