@@ -420,8 +420,8 @@ Setting Anisotropic Filtering in the Nvidia Control Panel can potentially improv
   <summary>MFAA (Multi-Frame Anti-Aliasing)</summary>
   
 [MFAA](https://www.nvidia.com/en-us/geforce/news/multi-frame-sampled-anti-aliasing-delivers-better-performance-and-superior-image-quality/) is an anti-aliasing technique which by alternating AA sample patterns both temporally and spatially can improve the quality of MSAA.  
-4xMFAA has the performance cost of 2xMSAA, with anti-aliasing properties equivalent to 4xMSAA.  
-Requires MSAA to bet set to atleast 2x in Content Manager > Settings > MSAA  
+4xMFAA (2xMSAA + MFAA) has the performance cost of 2xMSAA, with anti-aliasing properties equivalent to 4xMSAA.  
+Requires MSAA to bet set to atleast 2x in <ins>Content Manager > Settings > MSAA</ins>  
 <img src="https://github.com/user-attachments/assets/ea28aeec-ca77-4f4c-b614-32174566e79c" width="600"> 
 </details>
 
