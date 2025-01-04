@@ -198,8 +198,10 @@ These presets are simply to be used as a base for your own preference. Test the 
 ## 6. What is Foveated Rendering
 Foveated rendering is a method in VR to achieve greater performance by rendering the outer parts of the image at lower resolution as shown in the example below. This makes sense on most headsets as only the center part of the lense is in focus and can display the image clearly.  
 Foveated rendering is the biggest performance increase (GPU load wise) that you can get in VR so it is highly recommended to take advantage of it.  
+Some headsets with eye tracking can support Dynamic Foveated Rendering (more info about this in the future)  
 
-<img src="https://github.com/Raptyyy/rapty_ac_vr_guide/blob/980c83fc6ec2016ade1d3e7c172c3838679fc5f9/resources/fov_rend_example.jpg" width="1280">   
+<img src="https://github.com/user-attachments/assets/9a4c7415-2240-463d-8455-646f1ae8d1ff" width="600">   
+
 
 Ways to enable / use Foveated rendering (Use only one of these methods):  
 - Enable "Nvidia VRS" in Custom Shaders Patch, [explained further here](#nvidia-vrs) (Easiest way to enable it)  
