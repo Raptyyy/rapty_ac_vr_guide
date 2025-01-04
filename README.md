@@ -125,7 +125,7 @@ Using this method you can also look into the [OpenXR Toolkit](#openxr-toolkit)
 
 ## 2.1. VR Resolution
 Unlike monitors, VR headsets dont have a "native" resolution because of [barrel distortion](https://images.anandtech.com/doci/9305/MRSOptics.jpg) which reduces detail in the image.  
-It is important to set the resolution high enough to have a clear image, but also not too high to not cause performance issues.  
+It is important to set the resolution high enough to have a clear image, but also not too high to avoid performance issues.  
 
 - **Oculus / Meta** headsets you can adjust it in the Oculus app (Settings > Graphics Preference > Render Resolution) Or in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) with the Pixels Per Display Pixel Override setting.  
 - **Steam VR** headsets you can adjust it in SteamVR settings (Video > Resolution Per Eye).  
