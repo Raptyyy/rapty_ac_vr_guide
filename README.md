@@ -352,13 +352,13 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 ### Mode Tweaks VR:
 Make sure the extension is enabled (Active)  
 
-**Single Pass Stereo** Highly recommended to `enable`, especially on slower CPUs. It renders both eye images at the same time into one packed Render Texture, meaning that the whole Scene is only rendered once, and CPU processing time is significantly reduced. Can make some Pure shaders not work.  
+**Single Pass Stereo** Highly recommended to have it `enabled`, especially on slower CPUs. It renders both eye images at the same time into one packed Render Texture, meaning that the whole Scene is only rendered once, and CPU processing time is significantly reduced. Can make some Pure shaders not work.  
 
-**Single YEBIS pass** Recommended to `enable` for best performance if needed. Instead of running post-processing individually for each eye, runs it once for both eyes. Can potentially affect glare effects in an undesirable way.  
+**Single YEBIS pass** Have it `enabled` for best performance if needed. Instead of running post-processing individually for each eye, runs it once for both eyes. Can potentially affect glare effects in an undesirable way.  
 
 ### Nvidia VRS
 also known as Foveated rendering ([What is Foveated Rendering](#6-what-is-foveated-rendering)), only works for Nvidia GPUs.  
-If you want to use Nvidia VRS:  
+If you want to use Nvidia VRS (Requires Single Pass Stereo to be enabled):  
 - **Nvidia VRS** `enabled`
 - **VRS preset** `Custom`
 - **VRS rate** `High performance`, can set to Highest performance if you need every bit of performance but it will be more visible.
