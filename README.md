@@ -47,7 +47,7 @@ Quick links:
 ### A. Native Oculus implementation (easiest method):  
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
   1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.  
-2. In the Oculus App, Settings > General enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
+2. In the Oculus App, <ins>Settings > General</ins> enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)  
 3. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "Oculus Rift", this does not require SteamVR.  
 
 ### B. Using Virtual Desktop and OpenComposite (Can give better results however costs money):
