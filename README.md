@@ -1,7 +1,7 @@
 # VR guide for Assetto Corsa and CSP
 
-> [!TIP]
-> ## There is a newer version of the guide which you can find here: [AC VR Guide](https://raptyyy.github.io/vr-guide/#/)
+> [!NOTE]
+> ## There is a newer version of the guide here: [AC VR Guide](https://raptyyy.github.io/vr-guide/#/)
 
 The purpose of this guide is to help with basic VR setup, installing Custom Shaders Patch, Pure and adjusting your settings for the best experience.  
 It also covers usage of OpenComposite and the OpenXR Toolkit.  
